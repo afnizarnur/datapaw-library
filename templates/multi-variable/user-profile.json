@@ -1,0 +1,57 @@
+{
+  "id": "user-profile-template",
+  "title": "User Profile Data",
+  "description": "Common user profile data including name, email, avatar, and other personal information",
+  "author": {
+    "name": "Afnizar Nur Ghifari",
+    "avatar": "https://github.com/afnizarnur.png"
+  },
+  "category": "multi-variable",
+  "tags": ["user", "profile", "personal", "contact"],
+  "createdAt": "2024-01-08T12:00:00Z",
+  "updatedAt": "2024-01-08T12:00:00Z",
+  "featured": true,
+  "content": {
+    "type": "multi-variable",
+    "data": {
+      "variables": [
+        {
+          "id": "fullName",
+          "type": "string",
+          "label": "Full Name",
+          "description": "User's full name",
+          "value": "John Doe"
+        },
+        {
+          "id": "email",
+          "type": "string",
+          "label": "Email",
+          "description": "User's email address",
+          "value": "john.doe@example.com"
+        },
+        {
+          "id": "age",
+          "type": "number",
+          "label": "Age",
+          "description": "User's age",
+          "value": 28
+        },
+        {
+          "id": "joinDate",
+          "type": "date-time",
+          "label": "Join Date",
+          "description": "When the user joined",
+          "value": "2024-01-01T00:00:00Z"
+        },
+        {
+          "id": "bio",
+          "type": "string",
+          "label": "Biography",
+          "description": "User's short biography",
+          "value": "Product designer based in San Francisco"
+        }
+      ]
+    }
+  },
+  "version": "1.0.0"
+}
