@@ -4,7 +4,7 @@
   "category": "date-time",
   "isFeatured": true,
   "data": {
-    "dateFormat": "YYYY-MM-DD HH:mm:ss",
+    "dateFormat": "yyyy-MM-dd HH:mm",
     "orderType": "Random",
     "prefix": "",
     "suffix": ""
