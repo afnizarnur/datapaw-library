@@ -5,7 +5,9 @@
   "isFeatured": true,
   "data": {
     "dateFormat": "YYYY-MM-DD HH:mm:ss",
-    "orderType": "Random"
+    "orderType": "Random",
+    "prefix": "",
+    "suffix": ""
   },
   "tags": ["timestamp", "date", "time", "datetime", "post date"]
 }
