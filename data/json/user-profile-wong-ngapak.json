@@ -5,58 +5,7 @@
   "isFeatured": true,
   "data": {
     "sourceType": "direct",
-    "content": [
-      {
-        "fullName": "Budi Santoso",
-        "username": "@budisanto",
-        "avatar": "https://mighty.tools/mockmind-api/content/human/101.jpg"
-      },
-      {
-        "fullName": "Tukiman Wijaya",
-        "username": "@tukiwij",
-        "avatar": "https://mighty.tools/mockmind-api/content/human/105.jpg"
-      },
-      {
-        "fullName": "Sutiyem Raharjo",
-        "username": "@sutirah",
-        "avatar": "https://mighty.tools/mockmind-api/content/human/107.jpg"
-      },
-      {
-        "fullName": "Paijo Sumarno",
-        "username": "@paijsum",
-        "avatar": "https://mighty.tools/mockmind-api/content/human/103.jpg"
-      },
-      {
-        "fullName": "Parmin Suyatno",
-        "username": "@parmins",
-        "avatar": "https://mighty.tools/mockmind-api/content/human/102.jpg"
-      },
-      {
-        "fullName": "Ngatini Purwanto",
-        "username": "@ngatipur",
-        "avatar": "https://mighty.tools/mockmind-api/content/human/108.jpg"
-      },
-      {
-        "fullName": "Suwandi Susilo",
-        "username": "@susuwandi",
-        "avatar": "https://mighty.tools/mockmind-api/content/human/109.jpg"
-      },
-      {
-        "fullName": "Sri Mulyani",
-        "username": "@sri_mul",
-        "avatar": "https://mighty.tools/mockmind-api/content/human/110.jpg"
-      },
-      {
-        "fullName": "Wagiman Pranoto",
-        "username": "@wagipran",
-        "avatar": "https://mighty.tools/mockmind-api/content/human/106.jpg"
-      },
-      {
-        "fullName": "Sukarti Wijoyo",
-        "username": "@kartiwijo",
-        "avatar": "https://mighty.tools/mockmind-api/content/human/104.jpg"
-      }
-    ],
+    "content": "{\n  \"users\": [\n    {\n      \"fullName\": \"Budi Santoso\",\n      \"username\": \"@budisanto\",\n      \"avatar\": \"https://mighty.tools/mockmind-api/content/human/101.jpg\"\n    },\n    {\n      \"fullName\": \"Tukiman Wijaya\",\n      \"username\": \"@tukiwij\",\n      \"avatar\": \"https://mighty.tools/mockmind-api/content/human/105.jpg\"\n    },\n    {\n      \"fullName\": \"Sutiyem Raharjo\",\n      \"username\": \"@sutirah\",\n      \"avatar\": \"https://mighty.tools/mockmind-api/content/human/107.jpg\"\n    },\n    {\n      \"fullName\": \"Paijo Sumarno\",\n      \"username\": \"@paijsum\",\n      \"avatar\": \"https://mighty.tools/mockmind-api/content/human/103.jpg\"\n    },\n    {\n      \"fullName\": \"Parmin Suyatno\",\n      \"username\": \"@parmins\",\n      \"avatar\": \"https://mighty.tools/mockmind-api/content/human/102.jpg\"\n    },\n    {\n      \"fullName\": \"Ngatini Purwanto\",\n      \"username\": \"@ngatipur\",\n      \"avatar\": \"https://mighty.tools/mockmind-api/content/human/108.jpg\"\n    },\n    {\n      \"fullName\": \"Suwandi Susilo\",\n      \"username\": \"@susuwandi\",\n      \"avatar\": \"https://mighty.tools/mockmind-api/content/human/109.jpg\"\n    },\n    {\n      \"fullName\": \"Sri Mulyani\",\n      \"username\": \"@sri_mul\",\n      \"avatar\": \"https://mighty.tools/mockmind-api/content/human/110.jpg\"\n    },\n    {\n      \"fullName\": \"Wagiman Pranoto\",\n      \"username\": \"@wagipran\",\n      \"avatar\": \"https://mighty.tools/mockmind-api/content/human/106.jpg\"\n    },\n    {\n      \"fullName\": \"Sukarti Wijoyo\",\n      \"username\": \"@kartiwijo\",\n      \"avatar\": \"https://mighty.tools/mockmind-api/content/human/104.jpg\"\n    }\n  ]\n}",
     "orderType": "AsEntered"
   },
   "tags": ["user", "profile", "personal", "social"]

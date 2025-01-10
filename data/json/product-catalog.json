@@ -5,34 +5,7 @@
   "isFeatured": false,
   "data": {
     "sourceType": "direct",
-    "content": [
-      {
-        "id": "P001",
-        "name": "Wireless Headphones",
-        "category": "Electronics",
-        "price": 129.99,
-        "rating": 4.5,
-        "inStock": true,
-        "specs": {
-          "color": "Black",
-          "batteryLife": "20 hours",
-          "connectivity": "Bluetooth 5.0"
-        }
-      },
-      {
-        "id": "P002",
-        "name": "Smart Watch",
-        "category": "Wearables",
-        "price": 249.99,
-        "rating": 4.8,
-        "inStock": true,
-        "specs": {
-          "color": "Silver",
-          "display": "AMOLED",
-          "waterproof": true
-        }
-      }
-    ],
+    "content": "{\n  \"products\": [\n    {\n      \"id\": \"P001\",\n      \"name\": \"Wireless Headphones\",\n      \"category\": \"Electronics\",\n      \"price\": 129.99,\n      \"rating\": 4.5,\n      \"inStock\": true,\n      \"specs\": {\n        \"color\": \"Black\",\n        \"batteryLife\": \"20 hours\",\n        \"connectivity\": \"Bluetooth 5.0\"\n      }\n    },\n    {\n      \"id\": \"P002\",\n      \"name\": \"Smart Watch\",\n      \"category\": \"Wearables\",\n      \"price\": 249.99,\n      \"rating\": 4.8,\n      \"inStock\": true,\n      \"specs\": {\n        \"color\": \"Silver\",\n        \"display\": \"AMOLED\",\n        \"waterproof\": true\n      }\n    }\n  ]\n}",
     "orderType": "Random"
   },
   "tags": ["product", "ecommerce", "catalog", "shop"]
