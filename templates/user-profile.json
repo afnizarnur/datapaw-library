@@ -1,0 +1,45 @@
+{
+  "name": "User Profile Data",
+  "description": "Common user profile data including name, email, avatar, etc.",
+  "category": "multi-variable",
+  "isFeatured": true,
+  "author": {
+    "name": "Afnizar Nur Ghifari",
+    "githubUsername": "afnizarnur"
+  },
+  "metadata": {
+    "createdAt": "2024-01-08T00:00:00Z",
+    "modifiedAt": "2024-01-08T00:00:00Z"
+  },
+  "tags": ["user", "profile", "multi-variable"],
+  "data": {
+    "variables": [
+      {
+        "name": "Full Name",
+        "type": "string",
+        "data": {
+          "textItems": ["John Doe", "Jane Smith", "Alex Johnson"]
+        }
+      },
+      {
+        "name": "Email",
+        "type": "string",
+        "data": {
+          "textItems": [
+            "john@example.com",
+            "jane@example.com",
+            "alex@example.com"
+          ]
+        }
+      },
+      {
+        "name": "Age",
+        "type": "number",
+        "data": {
+          "min": "18",
+          "max": "65"
+        }
+      }
+    ]
+  }
+}
