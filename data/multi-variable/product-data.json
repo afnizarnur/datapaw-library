@@ -1,7 +1,7 @@
 {
   "name": "E-commerce Product Data",
   "description": "Product data template with name, price, description, stock, and image URL",
-  "category": "multi-variable",
+  "category": "multiple",
   "isFeatured": false,
   "tags": ["product", "e-commerce", "multi-variable", "shop"],
   "data": {

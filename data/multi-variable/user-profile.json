@@ -1,7 +1,7 @@
 {
   "name": "User Profile Data",
   "description": "Common user profile data including name, email, avatar, etc.",
-  "category": "multi-variable",
+  "category": "multiple",
   "isFeatured": true,
   "tags": ["user", "profile", "multi-variable"],
   "data": {
