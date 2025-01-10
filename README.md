@@ -61,7 +61,12 @@ Each data file should be a JSON file with the following structure:
 #### String Data
 ```json
 {
-  "data": ["item1", "item2", "item3"]
+  "data": {
+    "textItems": ["item1", "item2", "item3"],
+    "orderType": "Random" | "AsEntered" | "ReverseOrder",
+    "prefix": "",
+    "suffix": ""
+  }
 }
 ```
 
@@ -86,7 +91,9 @@ Each data file should be a JSON file with the following structure:
     "min": "0",
     "max": "100",
     "decimalPlaces": "0",
-    "useSeparator": boolean
+    "useSeparator": boolean,
+    "prefix": "",
+    "suffix": ""
   }
 }
 ```
@@ -96,31 +103,14 @@ Example use cases:
 - Test scores (60-100%, one decimal)
 - Completion rates (0-100%, no decimals)
 
-#### Currency Data
-```json
-{
-  "data": {
-    "min": "0",
-    "max": "1000",
-    "decimalPlaces": "2",
-    "useSeparator": true,
-    "currency": "USD",
-    "symbolPosition": "prefix" | "suffix",
-    "useSymbol": true,
-    "prefix": "",
-    "suffix": ""
-  }
-}
-```
-
-Available currencies: USD, EUR, GBP, JPY, AUD, CAD, CHF, CNY, HKD, NZD, SEK, KRW, SGD, NOK, MXN, INR, RUB, ZAR, TRY, BRL, TWD, DKK, PLN, THB, IDR, and more.
-
 #### Date-Time Data
 ```json
 {
   "data": {
     "dateFormat": "yyyy-MM-dd HH:mm",
-    "orderType": "Random" | "Sequential" | "ReverseOrder"
+    "orderType": "Random" | "Sequential" | "ReverseOrder",
+    "prefix": "",
+    "suffix": ""
   }
 }
 ```
@@ -136,12 +126,7 @@ Available date formats:
 ```json
 {
   "data": {
-    "sourceType": "direct" | "url",
-    "content": [
-      {
-        // Your JSON structure here
-      }
-    ],
+    "content": "stringified JSON data",
     "orderType": "Random" | "AsEntered" | "ReverseOrder"
   }
 }
