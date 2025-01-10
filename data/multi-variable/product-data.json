@@ -1,0 +1,89 @@
+{
+  "name": "E-commerce Product Data",
+  "description": "Product data template with name, price, description, stock, and image URL",
+  "category": "multi-variable",
+  "isFeatured": false,
+  "tags": ["product", "e-commerce", "multi-variable", "shop"],
+  "data": {
+    "variables": [
+      {
+        "name": "Product Name",
+        "type": "string",
+        "data": {
+          "textItems": [
+            "Wireless Headphones",
+            "Smart Watch",
+            "Laptop Stand",
+            "Mechanical Keyboard",
+            "USB-C Hub"
+          ]
+        }
+      },
+      {
+        "name": "Price",
+        "type": "currency",
+        "data": {
+          "min": "29.99",
+          "max": "299.99",
+          "decimalPlaces": "2",
+          "currency": "USD",
+          "useSeparator": true
+        }
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "data": {
+          "textItems": [
+            "Premium quality product with sleek design",
+            "High-performance device for everyday use",
+            "Ergonomic design for maximum comfort",
+            "Professional-grade equipment for your workspace",
+            "Essential accessory for modern devices"
+          ]
+        }
+      },
+      {
+        "name": "Stock",
+        "type": "number",
+        "data": {
+          "min": "0",
+          "max": "100",
+          "decimalPlaces": "0",
+          "useSeparator": true
+        }
+      },
+      {
+        "name": "Rating",
+        "type": "number",
+        "data": {
+          "min": "3.5",
+          "max": "5.0",
+          "decimalPlaces": "1"
+        }
+      },
+      {
+        "name": "Image URL",
+        "type": "image",
+        "data": {
+          "images": [
+            {
+              "url": "https://picsum.photos/400/400",
+              "name": "Product Image"
+            }
+          ],
+          "orderType": "Random"
+        }
+      },
+      {
+        "name": "Release Date",
+        "type": "date-time",
+        "data": {
+          "format": "MM/DD/YYYY",
+          "startDate": "2023-01-01",
+          "endDate": "2024-12-31"
+        }
+      }
+    ]
+  }
+}

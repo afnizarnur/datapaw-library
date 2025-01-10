@@ -3,10 +3,6 @@
   "description": "Common user profile data including name, email, avatar, etc.",
   "category": "multi-variable",
   "isFeatured": true,
-  "author": {
-    "name": "Afnizar Nur Ghifari",
-    "githubUsername": "afnizarnur"
-  },
   "tags": ["user", "profile", "multi-variable"],
   "data": {
     "variables": [
