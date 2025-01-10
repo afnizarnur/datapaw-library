@@ -1,0 +1,15 @@
+{
+  "name": "Ratings",
+  "description": "Rating scores from 1 to 5 with one decimal place",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "1",
+    "max": "5",
+    "decimalPlaces": "1",
+    "useSeparator": false,
+    "prefix": "",
+    "suffix": "★"
+  },
+  "tags": ["rating", "score", "stars", "review"]
+}

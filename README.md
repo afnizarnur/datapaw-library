@@ -1,96 +1,131 @@
 # Datapaw Library
 
-A collection of data templates for Datapaw Figma Plugin.
+A collection of ready-to-use data for the Datapaw Figma plugin. This repository contains various data types that can be used in your design mockups.
 
-## Structure
+## Data Types
+
+The library currently supports the following data types:
+
+- **String**: Text data like names, titles, descriptions
+- **Number**: Numeric data with configurable ranges and formats
+- **Percent**: Percentage values with optional formatting
+- **Currency**: Monetary values with currency symbols
+- **Date-Time**: Date and time values in various formats
+- **Multiple**: Combined data types for complex use cases
+- **Image**: Image data from URLs or frames
+
+## Directory Structure
 
 ```
 datapaw-library/
-├── data/
-│   ├── multi-variable/     # Multi-variable data
-│   ├── json/              # JSON data
-│   ├── string/            # String data
-│   ├── number/            # Number data
-│   ├── percent/           # Percentage data
-│   ├── image/             # Image data
-│   ├── date-time/         # Date & Time data
-│   ├── currency/          # Currency data
-│   └── fake-data/         # Fake data
-└── README.md
+├── data/                  # Data directory
+│   ├── string/           # String data
+│   ├── number/           # Number data
+│   ├── percent/          # Percentage data
+│   ├── currency/         # Currency data
+│   ├── date-time/        # Date and time data
+│   ├── image/            # Image data
+│   └── multiple/         # Multi-variable data
 ```
 
-## Adding New Data
+## Contributing
 
-1. Choose the appropriate category folder in `data/`
-2. Create a new JSON file with a descriptive name (e.g., `user-profile.json`)
-3. Follow this structure:
+We welcome contributions! Here's how you can add new data:
+
+1. Fork this repository
+2. Create a new branch: `git checkout -b add-new-data`
+3. Add your data in the appropriate directory
+4. Submit a pull request
+
+### Data Structure
+
+Each data file should be a JSON file with the following structure:
 
 ```json
 {
-  "name": "Template Name",
-  "description": "Brief description of what this template provides",
-  "category": "category-name",
-  "isFeatured": false,
-  "tags": ["tag1", "tag2"],
+  "name": "Data Name",
+  "description": "Brief description of the data",
+  "category": "data-type",
+  "isFeatured": boolean,
   "data": {
-    // Template data structure based on category
+    // Data type specific configuration
+  },
+  "tags": ["tag1", "tag2"]
+}
+```
+
+### Data Type Configurations
+
+#### String Data
+```json
+{
+  "data": ["item1", "item2", "item3"]
+}
+```
+
+#### Number Data
+```json
+{
+  "data": {
+    "min": "0",
+    "max": "100",
+    "decimalPlaces": "2",
+    "useSeparator": boolean,
+    "prefix": "",
+    "suffix": ""
   }
 }
 ```
 
-### Category-specific Data Structures
-
-#### Multi-variable
-```json
-{
-  "data": {
-    "variables": [
-      {
-        "name": "Variable Name",
-        "type": "string|number|percent|image|date-time|currency",
-        "data": {
-          // Type-specific data structure
-        }
-      }
-    ]
-  }
-}
-```
-
-#### String
-```json
-{
-  "data": {
-    "textItems": ["item1", "item2"],
-    "orderType": "Random|AsEntered|ReverseOrder"
-  }
-}
-```
-
-#### Number
+#### Percent Data
 ```json
 {
   "data": {
     "min": "0",
     "max": "100",
     "decimalPlaces": "0",
-    "useSeparator": true
+    "useSeparator": boolean
   }
 }
 ```
 
-#### Percent
+#### Currency Data
 ```json
 {
   "data": {
     "min": "0",
-    "max": "100",
-    "decimalPlaces": "0"
+    "max": "1000",
+    "decimalPlaces": "2",
+    "useSeparator": true,
+    "currency": "USD",
+    "symbolPosition": "prefix" | "suffix",
+    "useSymbol": true,
+    "prefix": "",
+    "suffix": ""
   }
 }
 ```
 
-#### Image
+Available currencies: USD, EUR, GBP, JPY, AUD, CAD, CHF, CNY, HKD, NZD, SEK, KRW, SGD, NOK, MXN, INR, RUB, ZAR, TRY, BRL, TWD, DKK, PLN, THB, IDR, and more.
+
+#### Date-Time Data
+```json
+{
+  "data": {
+    "dateFormat": "yyyy-MM-dd HH:mm",
+    "orderType": "Random" | "Sequential" | "ReverseOrder"
+  }
+}
+```
+
+Available date formats:
+- Full formats: `"EEEE, d MMMM yyyy"` (Thursday, 12 October 2024)
+- Standard dates: `"yyyy-MM-dd"` (2024-03-20)
+- With time (24h): `"yyyy-MM-dd HH:mm"` (2024-03-20 15:30)
+- With time (12h): `"yyyy-MM-dd hh:mm a"` (2024-03-20 03:30 PM)
+- Time only: `"HH:mm"` (15:30) or `"hh:mm a"` (03:30 PM)
+
+#### Image Data
 ```json
 {
   "data": {
@@ -100,50 +135,64 @@ datapaw-library/
         "name": "image-name"
       }
     ],
-    "orderType": "Random|AsEntered|ReverseOrder"
+    "orderType": "Random" | "AsEntered" | "ReverseOrder",
+    "sourceType": "uploaded" | "frame"
   }
 }
 ```
 
-#### Date & Time
+#### Multiple Data
 ```json
 {
   "data": {
-    "format": "MM/DD/YYYY",
-    "startDate": "2024-01-01",
-    "endDate": "2024-12-31"
+    "variables": [
+      {
+        "name": "Variable Name",
+        "dataType": "string" | "number" | "percent" | "image" | "date-time" | "currency",
+        "config": {
+          // Configuration specific to the data type
+        }
+      }
+    ]
   }
 }
 ```
 
-#### Currency
-```json
-{
-  "data": {
-    "min": "0",
-    "max": "1000",
-    "decimalPlaces": "2",
-    "currency": "USD",
-    "useSeparator": true
-  }
-}
+### Pull Request Guidelines
+
+When submitting a PR, please ensure:
+
+1. Your data follows the correct structure for its type
+2. The data name is descriptive and unique
+3. The description clearly explains the data's purpose
+4. Tags are relevant and help in searching
+5. The `isFeatured` flag is set appropriately (use sparingly)
+6. All values are properly formatted as strings where required
+
+### Example PR Description
+
+```markdown
+## New Data: [Data Name]
+
+**Data Type:** [string/number/percent/etc]
+**Purpose:** Brief explanation of what this data is for
+
+### Data Details
+- Name: [name]
+- Description: [description]
+- Featured: [yes/no]
+- Tags: [list of tags]
+
+### Use Cases
+- Example use case 1
+- Example use case 2
+
+### Testing
+- [ ] Verified JSON structure
+- [ ] Tested in Datapaw plugin
+- [ ] Checked for duplicate data
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your template in the appropriate category folder
-3. Test the template with Datapaw Figma Plugin
-4. Submit a pull request
-
-## Guidelines
-
-1. Use clear, descriptive names for your template files
-2. Include relevant tags for better searchability
-3. Test your template data before submitting
-4. Keep descriptions concise but informative
-5. Update the modifiedAt date when making changes
 
 ## License
 
-MIT License - see LICENSE file for details 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
