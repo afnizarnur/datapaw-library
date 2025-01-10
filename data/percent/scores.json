@@ -1,0 +1,13 @@
+{
+  "name": "Test Scores",
+  "description": "Academic test scores with one decimal place",
+  "category": "percent",
+  "isFeatured": false,
+  "data": {
+    "min": "60",
+    "max": "100",
+    "decimalPlaces": "1",
+    "useSeparator": false
+  },
+  "tags": ["academic", "score", "grade", "test"]
+}

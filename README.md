@@ -11,6 +11,7 @@ The library currently supports the following data types:
 - **Percent**: Percentage values with optional formatting
 - **Currency**: Monetary values with currency symbols
 - **Date-Time**: Date and time values in various formats
+- **JSON**: Structured data in JSON format
 - **Multiple**: Combined data types for complex use cases
 - **Image**: Image data from URLs or frames
 
@@ -18,12 +19,13 @@ The library currently supports the following data types:
 
 ```
 datapaw-library/
-├── data/                  # Data directory
+├── data/                 # Data directory
 │   ├── string/           # String data
 │   ├── number/           # Number data
 │   ├── percent/          # Percentage data
 │   ├── currency/         # Currency data
 │   ├── date-time/        # Date and time data
+│   ├── json/             # JSON data
 │   ├── image/            # Image data
 │   └── multiple/         # Multi-variable data
 ```
@@ -89,6 +91,11 @@ Each data file should be a JSON file with the following structure:
 }
 ```
 
+Example use cases:
+- Progress indicators (0-100%, no decimals)
+- Test scores (60-100%, one decimal)
+- Completion rates (0-100%, no decimals)
+
 #### Currency Data
 ```json
 {
@@ -124,6 +131,27 @@ Available date formats:
 - With time (24h): `"yyyy-MM-dd HH:mm"` (2024-03-20 15:30)
 - With time (12h): `"yyyy-MM-dd hh:mm a"` (2024-03-20 03:30 PM)
 - Time only: `"HH:mm"` (15:30) or `"hh:mm a"` (03:30 PM)
+
+#### JSON Data
+```json
+{
+  "data": {
+    "sourceType": "direct" | "url",
+    "content": [
+      {
+        // Your JSON structure here
+      }
+    ],
+    "orderType": "Random" | "AsEntered" | "ReverseOrder"
+  }
+}
+```
+
+Example use cases:
+- User profiles with nested data
+- Product catalogs with specifications
+- Settings configurations
+- API response mockups
 
 #### Image Data
 ```json

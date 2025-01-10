@@ -1,0 +1,39 @@
+{
+  "name": "Product Catalog",
+  "description": "E-commerce product catalog with pricing and categories",
+  "category": "json",
+  "isFeatured": false,
+  "data": {
+    "sourceType": "direct",
+    "content": [
+      {
+        "id": "P001",
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "price": 129.99,
+        "rating": 4.5,
+        "inStock": true,
+        "specs": {
+          "color": "Black",
+          "batteryLife": "20 hours",
+          "connectivity": "Bluetooth 5.0"
+        }
+      },
+      {
+        "id": "P002",
+        "name": "Smart Watch",
+        "category": "Wearables",
+        "price": 249.99,
+        "rating": 4.8,
+        "inStock": true,
+        "specs": {
+          "color": "Silver",
+          "display": "AMOLED",
+          "waterproof": true
+        }
+      }
+    ],
+    "orderType": "Random"
+  },
+  "tags": ["product", "ecommerce", "catalog", "shop"]
+}

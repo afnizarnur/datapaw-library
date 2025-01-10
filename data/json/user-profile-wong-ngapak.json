@@ -1,0 +1,63 @@
+{
+  "name": "User Profiles Wong Ngapak",
+  "description": "Collection of user profile data localized for wong asli Banyumasan for mockups",
+  "category": "json",
+  "isFeatured": true,
+  "data": {
+    "sourceType": "direct",
+    "content": [
+      {
+        "fullName": "Budi Santoso",
+        "username": "@budisanto",
+        "avatar": "https://mighty.tools/mockmind-api/content/human/101.jpg"
+      },
+      {
+        "fullName": "Tukiman Wijaya",
+        "username": "@tukiwij",
+        "avatar": "https://mighty.tools/mockmind-api/content/human/105.jpg"
+      },
+      {
+        "fullName": "Sutiyem Raharjo",
+        "username": "@sutirah",
+        "avatar": "https://mighty.tools/mockmind-api/content/human/107.jpg"
+      },
+      {
+        "fullName": "Paijo Sumarno",
+        "username": "@paijsum",
+        "avatar": "https://mighty.tools/mockmind-api/content/human/103.jpg"
+      },
+      {
+        "fullName": "Parmin Suyatno",
+        "username": "@parmins",
+        "avatar": "https://mighty.tools/mockmind-api/content/human/102.jpg"
+      },
+      {
+        "fullName": "Ngatini Purwanto",
+        "username": "@ngatipur",
+        "avatar": "https://mighty.tools/mockmind-api/content/human/108.jpg"
+      },
+      {
+        "fullName": "Suwandi Susilo",
+        "username": "@susuwandi",
+        "avatar": "https://mighty.tools/mockmind-api/content/human/109.jpg"
+      },
+      {
+        "fullName": "Sri Mulyani",
+        "username": "@sri_mul",
+        "avatar": "https://mighty.tools/mockmind-api/content/human/110.jpg"
+      },
+      {
+        "fullName": "Wagiman Pranoto",
+        "username": "@wagipran",
+        "avatar": "https://mighty.tools/mockmind-api/content/human/106.jpg"
+      },
+      {
+        "fullName": "Sukarti Wijoyo",
+        "username": "@kartiwijo",
+        "avatar": "https://mighty.tools/mockmind-api/content/human/104.jpg"
+      }
+    ],
+    "orderType": "AsEntered"
+  },
+  "tags": ["user", "profile", "personal", "social"]
+}
