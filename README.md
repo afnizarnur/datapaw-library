@@ -31,10 +31,6 @@ datapaw-library/
   "description": "Brief description of what this template provides",
   "category": "category-name",
   "isFeatured": false,
-  "author": {
-    "name": "Your Name",
-    "githubUsername": "your-github-username"
-  },
   "tags": ["tag1", "tag2"],
   "data": {
     // Template data structure based on category
