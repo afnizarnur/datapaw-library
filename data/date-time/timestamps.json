@@ -1,37 +1,11 @@
 {
   "name": "Timestamps",
-  "description": "A collection of timestamps in different formats",
-  "type": "date-time",
-  "examples": [
-    {
-      "dateFormat": "MM/DD/YYYY",
-      "orderType": "Sequential",
-      "prefix": "",
-      "suffix": ""
-    },
-    {
-      "dateFormat": "YYYY-MM-DD HH:mm:ss",
-      "orderType": "Random",
-      "prefix": "Posted on: ",
-      "suffix": " UTC"
-    },
-    {
-      "dateFormat": "DD MMM YYYY",
-      "orderType": "ReverseOrder",
-      "prefix": "",
-      "suffix": ""
-    },
-    {
-      "dateFormat": "ddd, DD MMM YYYY",
-      "orderType": "Sequential",
-      "prefix": "Due: ",
-      "suffix": ""
-    },
-    {
-      "dateFormat": "HH:mm:ss",
-      "orderType": "Random",
-      "prefix": "",
-      "suffix": " (local time)"
-    }
-  ]
+  "description": "A collection of timestamps in different formats for various use cases",
+  "category": "date-time",
+  "isFeatured": true,
+  "data": {
+    "dateFormat": "YYYY-MM-DD HH:mm:ss",
+    "orderType": "Random"
+  },
+  "tags": ["timestamp", "date", "time", "datetime", "post date"]
 }

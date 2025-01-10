@@ -1,62 +1,18 @@
 {
   "name": "Product Prices",
-  "description": "A collection of product prices in different currencies and formats",
-  "type": "currency",
-  "examples": [
-    {
-      "min": "10",
-      "max": "100",
-      "decimalPlaces": "2",
-      "useSeparator": true,
-      "currency": "USD",
-      "symbolPosition": "prefix",
-      "useSymbol": true,
-      "prefix": "",
-      "suffix": ""
-    },
-    {
-      "min": "1000",
-      "max": "10000",
-      "decimalPlaces": "0",
-      "useSeparator": true,
-      "currency": "EUR",
-      "symbolPosition": "suffix",
-      "useSymbol": true,
-      "prefix": "",
-      "suffix": ""
-    },
-    {
-      "min": "100",
-      "max": "1000",
-      "decimalPlaces": "2",
-      "useSeparator": true,
-      "currency": "JPY",
-      "symbolPosition": "prefix",
-      "useSymbol": true,
-      "prefix": "Price: ",
-      "suffix": " only"
-    },
-    {
-      "min": "50",
-      "max": "500",
-      "decimalPlaces": "2",
-      "useSeparator": true,
-      "currency": "GBP",
-      "symbolPosition": "prefix",
-      "useSymbol": false,
-      "prefix": "GBP ",
-      "suffix": " (tax incl.)"
-    },
-    {
-      "min": "10000",
-      "max": "100000",
-      "decimalPlaces": "0",
-      "useSeparator": true,
-      "currency": "INR",
-      "symbolPosition": "prefix",
-      "useSymbol": true,
-      "prefix": "",
-      "suffix": " INR"
-    }
-  ]
+  "description": "A collection of product prices in different currencies and formats for e-commerce mockups",
+  "category": "currency",
+  "isFeatured": true,
+  "data": {
+    "min": "10",
+    "max": "1000",
+    "decimalPlaces": "2",
+    "useSeparator": true,
+    "currency": "USD",
+    "symbolPosition": "prefix",
+    "useSymbol": true,
+    "prefix": "",
+    "suffix": ""
+  },
+  "tags": ["price", "product", "e-commerce", "money", "retail"]
 }
