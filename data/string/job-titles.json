@@ -1,0 +1,24 @@
+{
+  "name": "Job Titles",
+  "description": "Common job titles for user interfaces and design mockups",
+  "category": "string",
+  "isFeatured": false,
+  "data": [
+    "Product Designer",
+    "Software Engineer",
+    "UX Researcher",
+    "Product Manager",
+    "Data Scientist",
+    "Marketing Manager",
+    "UI Developer",
+    "Content Strategist",
+    "DevOps Engineer",
+    "Business Analyst",
+    "Project Manager",
+    "Frontend Developer",
+    "Backend Engineer",
+    "UX Writer",
+    "Design Systems Engineer"
+  ],
+  "tags": ["job", "career", "position", "professional"]
+}

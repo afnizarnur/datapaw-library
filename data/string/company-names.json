@@ -1,0 +1,24 @@
+{
+  "name": "Company Names",
+  "description": "A collection of creative company names for your design mockups",
+  "category": "string",
+  "isFeatured": true,
+  "data": [
+    "Quantum Dynamics",
+    "Stellar Solutions",
+    "Nexus Innovations",
+    "Apex Technologies",
+    "Horizon Labs",
+    "Catalyst Systems",
+    "Fusion Dynamics",
+    "Prism Solutions",
+    "Vertex Technologies",
+    "Echo Innovations",
+    "Pulse Systems",
+    "Nova Technologies",
+    "Atlas Solutions",
+    "Zenith Labs",
+    "Spark Dynamics"
+  ],
+  "tags": ["company", "business", "names", "branding"]
+}
