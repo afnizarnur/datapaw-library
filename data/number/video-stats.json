@@ -2,7 +2,7 @@
   "name": "Video Stats",
   "description": "Video platform numbers for views, duration, subscribers, and watch time",
   "category": "number",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "min": "100000",
     "max": "9999999",

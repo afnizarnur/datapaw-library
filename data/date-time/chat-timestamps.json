@@ -1,0 +1,20 @@
+{
+  "name": "Chat Timestamps",
+  "description": "Time-only formats perfect for chat messages and instant messaging",
+  "category": "date-time",
+  "isFeatured": true,
+  "data": {
+    "dateFormat": "hh:mm:ss a",
+    "orderType": "Sequential",
+    "prefix": "",
+    "suffix": ""
+  },
+  "tags": [
+    "chat",
+    "messages",
+    "time",
+    "messaging",
+    "instant message",
+    "conversation"
+  ]
+}

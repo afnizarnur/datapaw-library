@@ -2,7 +2,7 @@
   "name": "Ratings",
   "description": "Rating scores from 1 to 5 with one decimal place",
   "category": "number",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "min": "1",
     "max": "5",

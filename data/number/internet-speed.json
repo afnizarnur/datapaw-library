@@ -2,7 +2,7 @@
   "name": "Internet Speed",
   "description": "Network speed numbers for download, upload, and ping measurements",
   "category": "number",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "min": "50",
     "max": "1000",

@@ -1,0 +1,13 @@
+{
+  "name": "File Timestamps",
+  "description": "Date and time formats perfect for file modification and creation dates",
+  "category": "date-time",
+  "isFeatured": true,
+  "data": {
+    "dateFormat": "yyyy-MM-dd HH:mm",
+    "orderType": "ReverseOrder",
+    "prefix": "",
+    "suffix": ""
+  },
+  "tags": ["files", "modified", "created", "system", "timestamps", "documents"]
+}

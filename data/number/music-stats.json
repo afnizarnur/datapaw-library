@@ -2,7 +2,7 @@
   "name": "Music Stats",
   "description": "Music streaming numbers for plays, listeners, and playlist stats",
   "category": "number",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "min": "10000",
     "max": "5000000",

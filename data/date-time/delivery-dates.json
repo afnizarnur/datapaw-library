@@ -1,0 +1,20 @@
+{
+  "name": "Delivery Dates",
+  "description": "Short date formats perfect for delivery estimates and shipping dates",
+  "category": "date-time",
+  "isFeatured": true,
+  "data": {
+    "dateFormat": "EEE, d MMM yyyy",
+    "orderType": "Sequential",
+    "prefix": "Arrives ",
+    "suffix": ""
+  },
+  "tags": [
+    "delivery",
+    "shipping",
+    "ecommerce",
+    "dates",
+    "estimates",
+    "tracking"
+  ]
+}

@@ -2,7 +2,7 @@
   "name": "Fitness Stats",
   "description": "Health and fitness numbers for steps, calories burned, distance, and workout stats",
   "category": "number",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "min": "5000",
     "max": "25000",
