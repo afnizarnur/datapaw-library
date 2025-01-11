@@ -188,6 +188,36 @@ Source types:
 }
 ```
 
+#### Google Sheets Data
+```json
+{
+  "data": {
+    "url": "https://docs.google.com/spreadsheets/d/...",
+    "orderType": "Random" | "AsEntered" | "ReverseOrder"
+  }
+}
+```
+
+Example use cases:
+- Product catalogs with multiple columns (name, price, description)
+- User databases with structured information
+- Content management for text and data
+- Dynamic data that needs frequent updates
+
+Requirements:
+- The Google Sheets document must be publicly accessible
+- The first row should contain column headers
+- Each column represents a different data field
+- Each row represents a single data entry
+
+Example sheet structure:
+```
+| Name     | Email            | Role      | Department |
+|----------|------------------|-----------|------------|
+| John Doe | john@example.com | Developer | Engineering|
+| Jane Doe | jane@example.com | Designer  | Design     |
+```
+
 ### Pull Request Guidelines
 
 When submitting a PR, please ensure:

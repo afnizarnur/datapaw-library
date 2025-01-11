@@ -1,0 +1,11 @@
+{
+  "name": "Users Data",
+  "description": "A comprehensive dataset containing user information",
+  "category": "google-sheets",
+  "isFeatured": true,
+  "data": {
+    "url": "https://docs.google.com/spreadsheets/d/1PKn9FH1WQhGjM0Mc4-4kiezf25IndHnxz8x44FsXsXM/edit?usp=sharing",
+    "orderType": "AsEntered"
+  },
+  "tags": ["user", "data", "information", "profile"]
+}
