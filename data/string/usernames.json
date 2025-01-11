@@ -2,7 +2,7 @@
   "name": "Usernames",
   "description": "A collection of creative usernames for social media and gaming profiles",
   "category": "string",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "textItems": [
       "pixel_ninja",

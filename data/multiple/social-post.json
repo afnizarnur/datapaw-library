@@ -1,0 +1,79 @@
+{
+  "name": "Social Media Post",
+  "description": "Social media post with username, content, likes, and timestamp",
+  "category": "multiple",
+  "isFeatured": true,
+  "tags": ["social", "post", "multi-variable", "content"],
+  "data": {
+    "variables": [
+      {
+        "id": "username",
+        "name": "username",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "pixel_ninja",
+            "cosmic_wanderer",
+            "digital_dreamer",
+            "tech_savvy_22",
+            "creative_spark",
+            "code_master",
+            "design_guru",
+            "web_wizard",
+            "art_explorer",
+            "data_voyager"
+          ],
+          "orderType": "Random",
+          "prefix": "@",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "post-content",
+        "name": "content",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "Just launched my new portfolio website! 🚀",
+            "Working on something exciting, can't wait to share! ✨",
+            "Coffee + Code = Perfect Morning ☕️",
+            "New blog post about UI design trends is live!",
+            "Learning a new framework today 💡",
+            "Who else loves dark mode everything?",
+            "Finally fixed that annoying bug 🐛",
+            "Design inspiration from nature 🌿",
+            "Weekend project coming along nicely",
+            "Share your favorite productivity tips below 👇"
+          ],
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "post-likes",
+        "name": "likes",
+        "dataType": "number",
+        "config": {
+          "min": "10",
+          "max": "9999",
+          "decimalPlaces": "0",
+          "useSeparator": true,
+          "prefix": "",
+          "suffix": " likes"
+        }
+      },
+      {
+        "id": "post-time",
+        "name": "timestamp",
+        "dataType": "date-time",
+        "config": {
+          "dateFormat": "relative",
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": " ago"
+        }
+      }
+    ]
+  }
+}

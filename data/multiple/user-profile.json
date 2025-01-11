@@ -1,0 +1,79 @@
+{
+  "name": "User Profile",
+  "description": "User profile information with name, bio, stats, and join date",
+  "category": "multiple",
+  "isFeatured": true,
+  "tags": ["profile", "user", "multi-variable", "account"],
+  "data": {
+    "variables": [
+      {
+        "id": "display-name",
+        "name": "displayName",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "Alex Thompson",
+            "Sarah Chen",
+            "Michael O'Connor",
+            "Priya Patel",
+            "David Kim",
+            "Emma Wilson",
+            "James Rodriguez",
+            "Sophia Lee",
+            "Lucas Silva",
+            "Olivia Zhang"
+          ],
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "user-bio",
+        "name": "bio",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "Digital artist and UI designer 🎨",
+            "Frontend developer | Coffee enthusiast ☕",
+            "Creating beautiful things with code ✨",
+            "UX researcher by day, gamer by night 🎮",
+            "Passionate about web accessibility 🌐",
+            "Building the future of tech 🚀",
+            "Design systems specialist 🎯",
+            "Making the web more beautiful 💫",
+            "Open source contributor 💻",
+            "Product designer & mentor 🌟"
+          ],
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "followers-count",
+        "name": "followers",
+        "dataType": "number",
+        "config": {
+          "min": "100",
+          "max": "50000",
+          "decimalPlaces": "0",
+          "useSeparator": true,
+          "prefix": "",
+          "suffix": " followers"
+        }
+      },
+      {
+        "id": "join-date",
+        "name": "joinDate",
+        "dataType": "date-time",
+        "config": {
+          "dateFormat": "MMMM yyyy",
+          "orderType": "Random",
+          "prefix": "Joined ",
+          "suffix": ""
+        }
+      }
+    ]
+  }
+}

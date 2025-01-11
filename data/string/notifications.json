@@ -2,7 +2,7 @@
   "name": "Notification Messages",
   "description": "A collection of common notification messages for apps and systems",
   "category": "string",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "textItems": [
       "Your order has been shipped!",

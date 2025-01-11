@@ -1,0 +1,70 @@
+{
+  "name": "Weather Forecast",
+  "description": "Weather forecast information with temperature, condition, and time",
+  "category": "multiple",
+  "isFeatured": true,
+  "tags": ["weather", "forecast", "multi-variable", "climate"],
+  "data": {
+    "variables": [
+      {
+        "id": "weather-condition",
+        "name": "condition",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "Sunny ☀️",
+            "Partly Cloudy ⛅",
+            "Cloudy ☁️",
+            "Light Rain 🌧",
+            "Heavy Rain ⛈",
+            "Thunderstorm ⚡",
+            "Snow ❄️",
+            "Foggy 🌫",
+            "Clear Sky 🌤",
+            "Windy 💨"
+          ],
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "temperature",
+        "name": "temp",
+        "dataType": "number",
+        "config": {
+          "min": "15",
+          "max": "35",
+          "decimalPlaces": "0",
+          "useSeparator": false,
+          "prefix": "",
+          "suffix": "°C"
+        }
+      },
+      {
+        "id": "humidity",
+        "name": "humidity",
+        "dataType": "number",
+        "config": {
+          "min": "30",
+          "max": "90",
+          "decimalPlaces": "0",
+          "useSeparator": false,
+          "prefix": "",
+          "suffix": "% humidity"
+        }
+      },
+      {
+        "id": "forecast-time",
+        "name": "time",
+        "dataType": "date-time",
+        "config": {
+          "dateFormat": "EEE, d MMM",
+          "orderType": "Sequential",
+          "prefix": "",
+          "suffix": ""
+        }
+      }
+    ]
+  }
+}

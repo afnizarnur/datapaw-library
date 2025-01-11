@@ -1,0 +1,73 @@
+{
+  "name": "E-commerce Product",
+  "description": "Product details with name, price, rating, and stock information",
+  "category": "multiple",
+  "isFeatured": true,
+  "tags": ["product", "e-commerce", "multi-variable", "shop"],
+  "data": {
+    "variables": [
+      {
+        "id": "product-name",
+        "name": "productName",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "AirFlow Pro Wireless Earbuds",
+            "ZenBook Ultra Laptop",
+            "SmartFit Activity Tracker",
+            "EcoBlend Coffee Maker",
+            "PowerCore Portable Charger",
+            "LuxeComfort Memory Foam Pillow",
+            "TechGrip Phone Stand",
+            "PureGlow LED Desk Lamp",
+            "AquaFresh Water Bottle",
+            "SoundWave Bluetooth Speaker"
+          ],
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "product-price",
+        "name": "price",
+        "dataType": "currency",
+        "config": {
+          "min": "29.99",
+          "max": "999.99",
+          "decimalPlaces": "2",
+          "useSeparator": true,
+          "currency": "USD",
+          "symbolPosition": "before",
+          "useSymbol": true
+        }
+      },
+      {
+        "id": "product-rating",
+        "name": "rating",
+        "dataType": "number",
+        "config": {
+          "min": "3.5",
+          "max": "5.0",
+          "decimalPlaces": "1",
+          "useSeparator": false,
+          "prefix": "",
+          "suffix": "⭐"
+        }
+      },
+      {
+        "id": "product-stock",
+        "name": "stock",
+        "dataType": "number",
+        "config": {
+          "min": "0",
+          "max": "100",
+          "decimalPlaces": "0",
+          "useSeparator": true,
+          "prefix": "",
+          "suffix": " in stock"
+        }
+      }
+    ]
+  }
+}

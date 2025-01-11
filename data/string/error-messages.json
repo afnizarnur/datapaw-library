@@ -2,7 +2,7 @@
   "name": "Error Messages",
   "description": "A collection of user-friendly error messages for various scenarios",
   "category": "string",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "textItems": [
       "Please check your internet connection",
