@@ -68,10 +68,10 @@
         "name": "timestamp",
         "dataType": "date-time",
         "config": {
-          "dateFormat": "relative",
+          "dateFormat": "hh:mm a",
           "orderType": "Random",
           "prefix": "",
-          "suffix": " ago"
+          "suffix": ""
         }
       }
     ]
