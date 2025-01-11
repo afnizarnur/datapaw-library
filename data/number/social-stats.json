@@ -1,0 +1,23 @@
+{
+  "name": "Social Media Stats",
+  "description": "Common social media numbers like views, likes, and followers with K/M formatting",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "1000",
+    "max": "999999",
+    "decimalPlaces": "1",
+    "useSeparator": true,
+    "prefix": "",
+    "suffix": ""
+  },
+  "tags": [
+    "social",
+    "stats",
+    "views",
+    "likes",
+    "followers",
+    "engagement",
+    "metrics"
+  ]
+}

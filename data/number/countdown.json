@@ -1,0 +1,15 @@
+{
+  "name": "Countdown Timer",
+  "description": "Countdown numbers for timers, launches, and special events",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "1",
+    "max": "60",
+    "decimalPlaces": "0",
+    "useSeparator": false,
+    "prefix": "",
+    "suffix": "s"
+  },
+  "tags": ["countdown", "timer", "launch", "event", "seconds", "time", "clock"]
+}

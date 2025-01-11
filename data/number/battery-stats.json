@@ -1,0 +1,23 @@
+{
+  "name": "Battery Stats",
+  "description": "Device battery statistics with percentage and time remaining",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "1",
+    "max": "100",
+    "decimalPlaces": "0",
+    "useSeparator": false,
+    "prefix": "",
+    "suffix": "%"
+  },
+  "tags": [
+    "battery",
+    "device",
+    "power",
+    "percentage",
+    "charging",
+    "mobile",
+    "energy"
+  ]
+}

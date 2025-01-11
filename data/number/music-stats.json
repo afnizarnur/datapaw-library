@@ -1,0 +1,23 @@
+{
+  "name": "Music Stats",
+  "description": "Music streaming numbers for plays, listeners, and playlist stats",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "10000",
+    "max": "5000000",
+    "decimalPlaces": "1",
+    "useSeparator": true,
+    "prefix": "",
+    "suffix": " plays"
+  },
+  "tags": [
+    "music",
+    "streaming",
+    "plays",
+    "listeners",
+    "playlist",
+    "songs",
+    "audio"
+  ]
+}

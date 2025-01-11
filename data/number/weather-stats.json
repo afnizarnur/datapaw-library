@@ -1,0 +1,22 @@
+{
+  "name": "Weather Stats",
+  "description": "Weather numbers for temperature, humidity, wind speed, and precipitation chance",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "15",
+    "max": "35",
+    "decimalPlaces": "1",
+    "useSeparator": false,
+    "prefix": "",
+    "suffix": "°"
+  },
+  "tags": [
+    "weather",
+    "temperature",
+    "climate",
+    "forecast",
+    "celsius",
+    "degrees"
+  ]
+}

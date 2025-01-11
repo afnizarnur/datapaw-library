@@ -1,0 +1,23 @@
+{
+  "name": "Internet Speed",
+  "description": "Network speed numbers for download, upload, and ping measurements",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "50",
+    "max": "1000",
+    "decimalPlaces": "1",
+    "useSeparator": true,
+    "prefix": "",
+    "suffix": " Mbps"
+  },
+  "tags": [
+    "internet",
+    "network",
+    "speed",
+    "download",
+    "upload",
+    "bandwidth",
+    "connection"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Video Stats",
+  "description": "Video platform numbers for views, duration, subscribers, and watch time",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "100000",
+    "max": "9999999",
+    "decimalPlaces": "1",
+    "useSeparator": true,
+    "prefix": "",
+    "suffix": "K views"
+  },
+  "tags": [
+    "youtube",
+    "video",
+    "views",
+    "duration",
+    "subscribers",
+    "watch time",
+    "content"
+  ]
+}

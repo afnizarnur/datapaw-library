@@ -9,7 +9,7 @@
     "decimalPlaces": "1",
     "useSeparator": false,
     "prefix": "",
-    "suffix": "⭐"
+    "suffix": " ⭐"
   },
   "tags": ["rating", "score", "stars", "review"]
 }

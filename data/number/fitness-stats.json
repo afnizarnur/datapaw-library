@@ -1,0 +1,23 @@
+{
+  "name": "Fitness Stats",
+  "description": "Health and fitness numbers for steps, calories burned, distance, and workout stats",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "5000",
+    "max": "25000",
+    "decimalPlaces": "0",
+    "useSeparator": true,
+    "prefix": "",
+    "suffix": " steps"
+  },
+  "tags": [
+    "fitness",
+    "health",
+    "steps",
+    "workout",
+    "calories",
+    "exercise",
+    "activity"
+  ]
+}

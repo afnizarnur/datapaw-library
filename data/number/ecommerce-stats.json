@@ -1,0 +1,23 @@
+{
+  "name": "E-commerce Stats",
+  "description": "Shop statistics for sales, inventory, reviews, and customer ratings",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "50",
+    "max": "999",
+    "decimalPlaces": "0",
+    "useSeparator": true,
+    "prefix": "",
+    "suffix": " in stock"
+  },
+  "tags": [
+    "ecommerce",
+    "shop",
+    "sales",
+    "inventory",
+    "products",
+    "retail",
+    "store"
+  ]
+}

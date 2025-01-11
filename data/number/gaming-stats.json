@@ -1,0 +1,23 @@
+{
+  "name": "Gaming Stats",
+  "description": "Fun gaming numbers for high scores, levels, XP points, and achievements",
+  "category": "number",
+  "isFeatured": true,
+  "data": {
+    "min": "9000",
+    "max": "999999",
+    "decimalPlaces": "0",
+    "useSeparator": true,
+    "prefix": "",
+    "suffix": " XP"
+  },
+  "tags": [
+    "gaming",
+    "score",
+    "xp",
+    "level",
+    "achievement",
+    "leaderboard",
+    "points"
+  ]
+}
