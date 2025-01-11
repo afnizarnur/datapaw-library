@@ -2,7 +2,7 @@
   "name": "Blog Post Dates",
   "description": "Standard date formats perfect for blog posts and articles",
   "category": "date-time",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "dateFormat": "MMMM dd, yyyy",
     "orderType": "ReverseOrder",

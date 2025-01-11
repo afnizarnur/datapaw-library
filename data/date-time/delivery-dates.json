@@ -2,7 +2,7 @@
   "name": "Delivery Dates",
   "description": "Short date formats perfect for delivery estimates and shipping dates",
   "category": "date-time",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "dateFormat": "EEE, d MMM yyyy",
     "orderType": "Sequential",

@@ -2,7 +2,7 @@
   "name": "Calendar Events",
   "description": "Full date formats perfect for calendar events and schedules",
   "category": "date-time",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "dateFormat": "EEEE, MMMM d, yyyy",
     "orderType": "Sequential",

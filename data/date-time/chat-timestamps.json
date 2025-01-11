@@ -2,7 +2,7 @@
   "name": "Chat Timestamps",
   "description": "Time-only formats perfect for chat messages and instant messaging",
   "category": "date-time",
-  "isFeatured": true,
+  "isFeatured": false,
   "data": {
     "dateFormat": "hh:mm:ss a",
     "orderType": "Sequential",
