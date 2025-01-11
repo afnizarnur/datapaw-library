@@ -1,0 +1,12 @@
+{
+  "name": "Premier League Points Table",
+  "description": "A comprehensive overview of the Premier League points standings.",
+  "category": "json",
+  "isFeatured": true,
+  "data": {
+    "sourceType": "url",
+    "url": "https://raw.githubusercontent.com/sharmadhiraj/free-json-datasets/refs/heads/master/datasets/premier-league-points-table.json",
+    "orderType": "Random"
+  },
+  "tags": ["football", "league", "points", "standings"]
+}

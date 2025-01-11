@@ -1,0 +1,12 @@
+{
+  "name": "Nepse Listed Companies 2021",
+  "description": "A comprehensive collection of companies listed on the Nepal Stock Exchange in 2021.",
+  "category": "json",
+  "isFeatured": false,
+  "data": {
+    "sourceType": "url",
+    "url": "https://raw.githubusercontent.com/sharmadhiraj/free-json-datasets/refs/heads/master/datasets/nepse-listed-companies-2021.json",
+    "orderType": "Random"
+  },
+  "tags": ["Nepal", "stock exchange", "companies", "finance", "2021"]
+}
