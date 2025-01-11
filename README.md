@@ -174,19 +174,87 @@ Source types:
 #### Multiple Data
 ```json
 {
+  "name": "Example Multi-Variable Data",
+  "description": "Example showing different data types in multi-variable",
+  "category": "multiple",
+  "isFeatured": false,
+  "tags": ["example", "multi-variable"],
   "data": {
     "variables": [
       {
-        "name": "Variable Name",
-        "dataType": "string" | "number" | "percent" | "image" | "date-time" | "currency",
+        "id": "string-var",
+        "name": "productName",
+        "dataType": "string",
         "config": {
-          // Configuration specific to the data type
+          "textItems": ["Product A", "Product B", "Product C"],
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "number-var",
+        "name": "quantity",
+        "dataType": "number",
+        "config": {
+          "min": "1",
+          "max": "100",
+          "decimalPlaces": "0",
+          "useSeparator": true,
+          "prefix": "",
+          "suffix": " units"
+        }
+      },
+      {
+        "id": "percent-var",
+        "name": "discount",
+        "dataType": "percent",
+        "config": {
+          "min": "10",
+          "max": "50",
+          "decimalPlaces": "0",
+          "useSeparator": false,
+          "prefix": "",
+          "suffix": "% off"
+        }
+      },
+      {
+        "id": "currency-var",
+        "name": "price",
+        "dataType": "currency",
+        "config": {
+          "min": "9.99",
+          "max": "99.99",
+          "decimalPlaces": "2",
+          "useSeparator": true,
+          "currency": "USD",
+          "symbolPosition": "before",
+          "useSymbol": true
+        }
+      },
+      {
+        "id": "date-var",
+        "name": "lastUpdated",
+        "dataType": "date-time",
+        "config": {
+          "dateFormat": "yyyy-MM-dd HH:mm",
+          "orderType": "Random",
+          "prefix": "Updated: ",
+          "suffix": ""
         }
       }
     ]
   }
 }
 ```
+
+Multi variable data allows you to define multiple variables with different data types in a single content. Each variable can be configured independently with its own settings.
+
+Each variable object has the following fields:
+- `id`: Unique identifier for the variable
+- `name`: Variable name (used as the layer name prefix)
+- `dataType`: Type of data ("string", "number", "percent", "currency", "date-time", "image")
+- `config`: Configuration object specific to the data type (see individual data type sections for config options)
 
 #### Google Sheets Data
 ```json
@@ -256,3 +324,93 @@ When submitting a PR, please ensure:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+
+## Multi Variable Data
+
+Multi variable data allows you to define multiple variables with different data types in a single content. Each variable can be configured independently with its own settings.
+
+### Structure
+
+```json
+{
+  "name": "Random Chat",
+  "description": "Random chat messages with names",
+  "category": "multiple",
+  "isFeatured": false,
+  "tags": ["chat", "messages", "multi-variable"],
+  "data": {
+    "variables": [
+      {
+        "id": "unique-id-1",
+        "name": "name",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "Prabowo Subianto",
+            "Megawati Soekarnoputri",
+            "Anies Baswedan"
+          ],
+          "orderType": "AsEntered",
+          "prefix": "",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "unique-id-2",
+        "name": "chat",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "Td liat berita politik di tv, malah ngantuk gw wkwk",
+            "Prabowo mau nyapres lg, emg dia ga capek ya",
+            "Ganjar tuh rambut putihnya makin ikonik bgt ga sih wkwk"
+          ],
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": ""
+        }
+      }
+    ]
+  }
+}
+```
+
+### Fields
+
+- `name`: The name of the content
+- `description`: A brief description of the content
+- `category`: Must be "multiple"
+- `isFeatured`: Whether the content should be featured
+- `tags`: Array of relevant tags
+- `data.variables`: Array of variable objects
+
+### Variable Object
+
+Each variable object has the following fields:
+- `id`: Unique identifier for the variable
+- `name`: Variable name (used as the layer name prefix)
+- `dataType`: Type of data ("string", "number", "percent", "image", "date-time", "currency")
+- `config`: Configuration object specific to the data type
+
+### Example Use Cases
+
+1. Chat Messages:
+   - Name variable for sender names
+   - Message variable for chat content
+   - Can be used to generate realistic chat interfaces
+
+2. Product Data:
+   - Name variable for product names
+   - Price variable for product prices
+   - Description variable for product descriptions
+
+3. User Profiles:
+   - Name variable for user names
+   - Age variable for user ages
+   - Bio variable for user descriptions
+
+### Order Types
+
+- `Random`: Items are selected randomly
+- `AsEntered`: Items are selected in the order they were entered
+- `ReverseOrder`: Items are selected in reverse order 
