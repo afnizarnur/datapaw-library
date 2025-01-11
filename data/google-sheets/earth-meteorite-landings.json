@@ -1,0 +1,18 @@
+{
+  "name": "Earth Meteorite Landings",
+  "description": "A detailed dataset of meteorite landings on Earth, providing insights into their origins, compositions, and historical significance.",
+  "category": "google-sheets",
+  "isFeatured": false,
+  "data": {
+    "url": "https://docs.google.com/spreadsheets/d/1hHeoLD03bX-SZYamP7ta21tryDPPISeG/edit?usp=sharing&ouid=103304401183057099265&rtpof=true&sd=true",
+    "orderType": "Random"
+  },
+  "tags": [
+    "meteorites",
+    "space science",
+    "earth data",
+    "geology",
+    "data collection",
+    "astronomy"
+  ]
+}

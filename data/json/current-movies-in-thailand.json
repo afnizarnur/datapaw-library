@@ -1,0 +1,12 @@
+{
+  "name": "Current Movies in Thailand",
+  "description": "A dataset providing information about the latest movies available in Thailand, including showtimes and details.",
+  "category": "json",
+  "isFeatured": false,
+  "data": {
+    "sourceType": "url",
+    "url": "https://showtimes.everyday.in.th/api/v2/movie/",
+    "orderType": "Random"
+  },
+  "tags": ["movies", "Thailand", "showtimes", "current releases"]
+}

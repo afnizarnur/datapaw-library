@@ -1,0 +1,12 @@
+{
+  "name": "Pokemon GO Pokedex",
+  "description": "A comprehensive database of Pokémon available in Pokémon GO, including their types, abilities, and stats.",
+  "category": "json",
+  "isFeatured": false,
+  "data": {
+    "sourceType": "url",
+    "url": "https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json",
+    "orderType": "Random"
+  },
+  "tags": ["Pokemon", "Pokedex", "gaming", "database"]
+}

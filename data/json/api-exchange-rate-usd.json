@@ -1,0 +1,12 @@
+{
+  "name": "USD Exchange Rate Today",
+  "description": "Current exchange rate data for USD against various currencies.",
+  "category": "json",
+  "isFeatured": false,
+  "data": {
+    "sourceType": "url",
+    "url": "https://api.exchangerate-api.com/v4/latest/USD",
+    "orderType": "Random"
+  },
+  "tags": ["exchange rate", "USD", "currency", "finance"]
+}
