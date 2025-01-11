@@ -123,10 +123,23 @@ Available date formats:
 - Time only: `"HH:mm"` (15:30) or `"hh:mm a"` (03:30 PM)
 
 #### JSON Data
+For direct input:
 ```json
 {
   "data": {
+    "sourceType": "direct",
     "content": "stringified JSON data",
+    "orderType": "Random" | "AsEntered" | "ReverseOrder"
+  }
+}
+```
+
+For URL source:
+```json
+{
+  "data": {
+    "sourceType": "url",
+    "url": "URL to JSON file",
     "orderType": "Random" | "AsEntered" | "ReverseOrder"
   }
 }
@@ -137,6 +150,10 @@ Example use cases:
 - Product catalogs with specifications
 - Settings configurations
 - API response mockups
+
+Source types:
+- **Direct**: JSON content is provided directly in the `content` field. Useful for static data or when you want to include the data within the library.
+- **URL**: JSON data is fetched from a URL specified in the `url` field. Useful for dynamic data or when the data is too large to include directly.
 
 #### Image Data
 ```json
