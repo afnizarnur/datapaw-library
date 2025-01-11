@@ -5,61 +5,59 @@
   "isFeatured": false,
   "tags": ["product", "e-commerce", "multi-variable", "shop"],
   "data": {
-    "data": {
-      "variables": [
-        {
-          "id": "86f0ec7e-66ce-41d0-add5-c1cbdc7f054c",
-          "name": "name",
-          "dataType": "string",
-          "config": {
-            "textItems": [
-              "Prabowo Subianto",
-              "Megawati Soekarnoputri",
-              "Anies Baswedan",
-              "Ganjar Pranowo",
-              "Jusuf Kalla",
-              "Puan Maharani",
-              "Ridwan Kamil ",
-              "Muhaimin Iskandar"
-            ],
-            "orderType": "AsEntered",
-            "prefix": "",
-            "suffix": ""
-          }
-        },
-        {
-          "id": "12ff5294-ff40-46c8-b3a7-4a410e945333",
-          "name": "chat",
-          "dataType": "string",
-          "config": {
-            "textItems": [
-              "Td liat berita politik di tv, malah ngantuk gw wkwk",
-              "Prabowo mau nyapres lg, emg dia ga capek ya",
-              "Ganjar tuh rambut putihnya makin ikonik bgt ga sih wkwk",
-              "Katanya BBM mau turun lg, tp janji doang kali ya",
-              "Pemilu tuh gmn ya skrg, gw makin males liat beritanya",
-              "Puan kalo jadi maju, kayaknya bakal rame bgt debatnya",
-              "Kemaren tuh liat spanduk capres di gang, fotonya kayak kurang niat gitu wkwk",
-              "Sandiaga tuh kayanya cocok jual skincare deh, mukanya glowing bgt",
-              "Tiap ada reshuffle kabinet, gw tuh cuma mikir siapa lg nih yang ganti",
-              "Pemerintah janji2 soal internet desa, ya liat aja kapan terwujudnya",
-              "Kata tetangga, e-voting tuh bakal bikin bingung org tua, lo setuju ga",
-              "Omnibus law tuh gw ga paham, tp kok kayaknya ribet bgt ya",
-              "Debat capres tuh lebih lucu daripada komedi skrg, serius dah",
-              "Kemaren liat meme Anies di FB, ngakak gw parah",
-              "Pemilu tuh kayak lomba nyari simpati org, ujung2nya ya sama aja wkwk",
-              "Gw tuh penasaran, capres itu beneran bikin program sendiri ga sih",
-              "Di WA grup RT, malah bahas politik, padahal mo ngatur jadwal ronda wkwk",
-              "Berita politik tuh kayak sinetron, ga ada endingnya",
-              "Kata suami, politik tuh bikin pusing, ya gw sih scroll TikTok aja",
-              "Udah daftar nyoblos blm Jgn sibuk nyinyirin org politik doang wkwk"
-            ],
-            "orderType": "Random",
-            "prefix": "",
-            "suffix": ""
-          }
+    "variables": [
+      {
+        "id": "86f0ec7e-66ce-41d0-add5-c1cbdc7f054c",
+        "name": "name",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "Prabowo Subianto",
+            "Megawati Soekarnoputri",
+            "Anies Baswedan",
+            "Ganjar Pranowo",
+            "Jusuf Kalla",
+            "Puan Maharani",
+            "Ridwan Kamil ",
+            "Muhaimin Iskandar"
+          ],
+          "orderType": "AsEntered",
+          "prefix": "",
+          "suffix": ""
         }
-      ]
-    }
+      },
+      {
+        "id": "12ff5294-ff40-46c8-b3a7-4a410e945333",
+        "name": "chat",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "Td liat berita politik di tv, malah ngantuk gw wkwk",
+            "Prabowo mau nyapres lg, emg dia ga capek ya",
+            "Ganjar tuh rambut putihnya makin ikonik bgt ga sih wkwk",
+            "Katanya BBM mau turun lg, tp janji doang kali ya",
+            "Pemilu tuh gmn ya skrg, gw makin males liat beritanya",
+            "Puan kalo jadi maju, kayaknya bakal rame bgt debatnya",
+            "Kemaren tuh liat spanduk capres di gang, fotonya kayak kurang niat gitu wkwk",
+            "Sandiaga tuh kayanya cocok jual skincare deh, mukanya glowing bgt",
+            "Tiap ada reshuffle kabinet, gw tuh cuma mikir siapa lg nih yang ganti",
+            "Pemerintah janji2 soal internet desa, ya liat aja kapan terwujudnya",
+            "Kata tetangga, e-voting tuh bakal bikin bingung org tua, lo setuju ga",
+            "Omnibus law tuh gw ga paham, tp kok kayaknya ribet bgt ya",
+            "Debat capres tuh lebih lucu daripada komedi skrg, serius dah",
+            "Kemaren liat meme Anies di FB, ngakak gw parah",
+            "Pemilu tuh kayak lomba nyari simpati org, ujung2nya ya sama aja wkwk",
+            "Gw tuh penasaran, capres itu beneran bikin program sendiri ga sih",
+            "Di WA grup RT, malah bahas politik, padahal mo ngatur jadwal ronda wkwk",
+            "Berita politik tuh kayak sinetron, ga ada endingnya",
+            "Kata suami, politik tuh bikin pusing, ya gw sih scroll TikTok aja",
+            "Udah daftar nyoblos blm Jgn sibuk nyinyirin org politik doang wkwk"
+          ],
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": ""
+        }
+      }
+    ]
   }
 }
