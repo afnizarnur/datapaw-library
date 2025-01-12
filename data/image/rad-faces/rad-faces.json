@@ -1,0 +1,502 @@
+{
+  "name": "Rad Faces - Retro Character Avatars",
+  "description": "A collection of nostalgic character avatars from the 80s and 90s featuring iconic characters from movies, TV shows, and pop culture. Perfect for retro-themed designs and nostalgic projects.",
+  "datatype": "image",
+  "isFeatured": true,
+  "author": {
+    "name": "Danilo Quilaton",
+    "githubUsername": "daniloq",
+    "avatarUrl": "https://github.com/daniloq.png"
+  },
+  "contributors": [],
+  "metadata": {
+    "createdAt": "2024-01-12T00:00:00Z",
+    "modifiedAt": "2024-01-12T00:00:00Z"
+  },
+  "githubUrl": "https://github.com/daniloq/rad-faces",
+  "data": {
+    "images": [
+      {
+        "url": "aeon-flux.jpg",
+        "name": "Aeon Flux"
+      },
+      {
+        "url": "akira.jpg",
+        "name": "Akira"
+      },
+      {
+        "url": "alan-frog.jpg",
+        "name": "Alan Frog"
+      },
+      {
+        "url": "alex-mack.jpg",
+        "name": "Alex Mack"
+      },
+      {
+        "url": "alex-murphy.jpg",
+        "name": "Alex Murphy"
+      },
+      {
+        "url": "allison-reynolds.jpg",
+        "name": "Allison Reynolds"
+      },
+      {
+        "url": "amanda-bynes.jpg",
+        "name": "Amanda Bynes"
+      },
+      {
+        "url": "angela-chase.jpg",
+        "name": "Angela Chase"
+      },
+      {
+        "url": "april-oneil.jpg",
+        "name": "April O'Neil"
+      },
+      {
+        "url": "artie-strongman.jpg",
+        "name": "Artie Strongman"
+      },
+      {
+        "url": "asha-kuerten.jpg",
+        "name": "Asha Kuerten"
+      },
+      {
+        "url": "atreyu.jpg",
+        "name": "Atreyu"
+      },
+      {
+        "url": "baby-sinclair.jpg",
+        "name": "Baby Sinclair"
+      },
+      {
+        "url": "big-pete-wrigley.jpg",
+        "name": "Big Pete Wrigley"
+      },
+      {
+        "url": "bill-preston.jpg",
+        "name": "Bill Preston"
+      },
+      {
+        "url": "bishop.jpg",
+        "name": "Bishop"
+      },
+      {
+        "url": "boba-fett.jpg",
+        "name": "Boba Fett"
+      },
+      {
+        "url": "bobby-budnick.jpg",
+        "name": "Bobby Budnick"
+      },
+      {
+        "url": "bradley-taylor.jpg",
+        "name": "Bradley Taylor"
+      },
+      {
+        "url": "bruce-lee.jpg",
+        "name": "Bruce Lee"
+      },
+      {
+        "url": "cameron-frye.jpg",
+        "name": "Cameron Frye"
+      },
+      {
+        "url": "casey-jones.jpg",
+        "name": "Casey Jones"
+      },
+      {
+        "url": "charlene-sinclair.jpg",
+        "name": "Charlene Sinclair"
+      },
+      {
+        "url": "chris-chambers.jpg",
+        "name": "Chris Chambers"
+      },
+      {
+        "url": "chucky.jpg",
+        "name": "Chucky"
+      },
+      {
+        "url": "claire-standish.jpg",
+        "name": "Claire Standish"
+      },
+      {
+        "url": "clarissa-marie-darling.jpg",
+        "name": "Clarissa Marie Darling"
+      },
+      {
+        "url": "danny-lightfoot.jpg",
+        "name": "Danny Lightfoot"
+      },
+      {
+        "url": "danny-pennington.jpg",
+        "name": "Danny Pennington"
+      },
+      {
+        "url": "daria-morgendorffer.jpg",
+        "name": "Daria Morgendorffer"
+      },
+      {
+        "url": "david-bowie.jpg",
+        "name": "David Bowie"
+      },
+      {
+        "url": "dina-alexander.jpg",
+        "name": "Dina Alexander"
+      },
+      {
+        "url": "dionne.jpg",
+        "name": "Dionne"
+      },
+      {
+        "url": "dylan-mckay.jpg",
+        "name": "Dylan McKay"
+      },
+      {
+        "url": "eddie-gelfen.jpg",
+        "name": "Eddie Gelfen"
+      },
+      {
+        "url": "edward-scissorhands.jpg",
+        "name": "Edward Scissorhands"
+      },
+      {
+        "url": "ellen-josephine-hickle.jpg",
+        "name": "Ellen Josephine Hickle"
+      },
+      {
+        "url": "elvira-hancock.jpg",
+        "name": "Elvira Hancock"
+      },
+      {
+        "url": "empress-tami.jpg",
+        "name": "Empress Tami"
+      },
+      {
+        "url": "ernest-worrell.jpg",
+        "name": "Ernest Worrell"
+      },
+      {
+        "url": "garth-algar.jpg",
+        "name": "Garth Algar"
+      },
+      {
+        "url": "gary-wallace.jpg",
+        "name": "Gary Wallace"
+      },
+      {
+        "url": "gordie-lachance.jpg",
+        "name": "Gordie Lachance"
+      },
+      {
+        "url": "harriet-welsch.jpg",
+        "name": "Harriet Welsch"
+      },
+      {
+        "url": "helga-pataki.jpg",
+        "name": "Helga Pataki"
+      },
+      {
+        "url": "ickis.jpg",
+        "name": "Ickis"
+      },
+      {
+        "url": "iggy.jpg",
+        "name": "Iggy"
+      },
+      {
+        "url": "jane-lane.jpg",
+        "name": "Jane Lane"
+      },
+      {
+        "url": "jeffrey-douglas.jpg",
+        "name": "Jeffrey Douglas"
+      },
+      {
+        "url": "jen.jpg",
+        "name": "Jen"
+      },
+      {
+        "url": "johnny-lawrence.jpg",
+        "name": "Johnny Lawrence"
+      },
+      {
+        "url": "june.jpg",
+        "name": "June"
+      },
+      {
+        "url": "kel-mitchell.jpg",
+        "name": "Kel Mitchell"
+      },
+      {
+        "url": "kelly-kapowski.jpg",
+        "name": "Kelly Kapowski"
+      },
+      {
+        "url": "kennedy-montgomery.jpg",
+        "name": "Kennedy Montgomery"
+      },
+      {
+        "url": "kimmy-gibbler.jpg",
+        "name": "Kimmy Gibbler"
+      },
+      {
+        "url": "kimmy-kibler.jpg",
+        "name": "Kimmy Kibler"
+      },
+      {
+        "url": "krumm.jpg",
+        "name": "Krumm"
+      },
+      {
+        "url": "laura-powers.jpg",
+        "name": "Laura Powers"
+      },
+      {
+        "url": "lawrence-cohen.jpg",
+        "name": "Lawrence Cohen"
+      },
+      {
+        "url": "linda-barret.jpg",
+        "name": "Linda Barret"
+      },
+      {
+        "url": "link.jpg",
+        "name": "Link"
+      },
+      {
+        "url": "lisa.jpg",
+        "name": "Lisa"
+      },
+      {
+        "url": "little-pete-wrigley.jpg",
+        "name": "Little Pete Wrigley"
+      },
+      {
+        "url": "lori-beth-denberg.jpg",
+        "name": "Lori Beth Denberg"
+      },
+      {
+        "url": "lucas.jpg",
+        "name": "Lucas"
+      },
+      {
+        "url": "lydia-deetz.jpg",
+        "name": "Lydia Deetz"
+      },
+      {
+        "url": "marian-delario.jpg",
+        "name": "Marian Delario"
+      },
+      {
+        "url": "marshall-teller.jpg",
+        "name": "Marshall Teller"
+      },
+      {
+        "url": "maurice.jpg",
+        "name": "Maurice"
+      },
+      {
+        "url": "mechagodzilla.jpg",
+        "name": "Mechagodzilla"
+      },
+      {
+        "url": "melody-hanson.jpg",
+        "name": "Melody Hanson"
+      },
+      {
+        "url": "melvin-ferd.jpg",
+        "name": "Melvin Ferd"
+      },
+      {
+        "url": "michael-douglas.jpg",
+        "name": "Michael Douglas"
+      },
+      {
+        "url": "michael-walsh.jpg",
+        "name": "Michael Walsh"
+      },
+      {
+        "url": "michelangelo.jpg",
+        "name": "Michelangelo"
+      },
+      {
+        "url": "oblina.jpg",
+        "name": "Oblina"
+      },
+      {
+        "url": "ororo-munroe.jpg",
+        "name": "Ororo Munroe"
+      },
+      {
+        "url": "pat-benatar.jpg",
+        "name": "Pat Benatar"
+      },
+      {
+        "url": "patty-mayonnaise.jpg",
+        "name": "Patty Mayonnaise"
+      },
+      {
+        "url": "pee-wee-herman.jpg",
+        "name": "Pee Wee Herman"
+      },
+      {
+        "url": "powdered-toast-man.jpg",
+        "name": "Powdered Toast Man"
+      },
+      {
+        "url": "purple-people-eater.jpg",
+        "name": "Purple People Eater"
+      },
+      {
+        "url": "quinn-morgendorffer.jpg",
+        "name": "Quinn Morgendorffer"
+      },
+      {
+        "url": "reno-reyes-jr.jpg",
+        "name": "Reno Reyes Jr"
+      },
+      {
+        "url": "richard-wang.jpg",
+        "name": "Richard Wang"
+      },
+      {
+        "url": "robbie-sinclair.jpg",
+        "name": "Robbie Sinclair"
+      },
+      {
+        "url": "roger-klotz.jpg",
+        "name": "Roger Klotz"
+      },
+      {
+        "url": "rufio.jpg",
+        "name": "Rufio"
+      },
+      {
+        "url": "sam-emerson.jpg",
+        "name": "Sam Emerson"
+      },
+      {
+        "url": "samuel-douglas.jpg",
+        "name": "Samuel Douglas"
+      },
+      {
+        "url": "sarah-williams.jpg",
+        "name": "Sarah Williams"
+      },
+      {
+        "url": "scott-howard.jpg",
+        "name": "Scott Howard"
+      },
+      {
+        "url": "scrabby-doo.jpg",
+        "name": "Scrabby Doo"
+      },
+      {
+        "url": "scrappy-doo.jpg",
+        "name": "Scrappy Doo"
+      },
+      {
+        "url": "simon-holmes.jpg",
+        "name": "Simon Holmes"
+      },
+      {
+        "url": "skeeter-valentine.jpg",
+        "name": "Skeeter Valentine"
+      },
+      {
+        "url": "squints-palledorous.jpg",
+        "name": "Squints Palledorous"
+      },
+      {
+        "url": "star-emerson.jpg",
+        "name": "Star Emerson"
+      },
+      {
+        "url": "stoney-brown.jpg",
+        "name": "Stoney Brown"
+      },
+      {
+        "url": "ted-logan.jpg",
+        "name": "Ted Logan"
+      },
+      {
+        "url": "teddy-duchamp.jpg",
+        "name": "Teddy Duchamp"
+      },
+      {
+        "url": "telly-radford.jpg",
+        "name": "Telly Radford"
+      },
+      {
+        "url": "tina-carlyle.jpg",
+        "name": "Tina Carlyle"
+      },
+      {
+        "url": "topanga-lawrence.jpg",
+        "name": "Topanga Lawrence"
+      },
+      {
+        "url": "tre-styles.jpg",
+        "name": "Tre Styles"
+      },
+      {
+        "url": "trent-lane.jpg",
+        "name": "Trent Lane"
+      },
+      {
+        "url": "ultimate-warrior.jpg",
+        "name": "Ultimate Warrior"
+      },
+      {
+        "url": "vera-de-milo.jpg",
+        "name": "Vera De Milo"
+      },
+      {
+        "url": "vern-tessio.jpg",
+        "name": "Vern Tessio"
+      },
+      {
+        "url": "wanda-woodward.jpg",
+        "name": "Wanda Woodward"
+      },
+      {
+        "url": "wednesday-addams.jpg",
+        "name": "Wednesday Addams"
+      },
+      {
+        "url": "will-smith.jpg",
+        "name": "Will Smith"
+      },
+      {
+        "url": "willow-ufgood.jpg",
+        "name": "Willow Ufgood"
+      },
+      {
+        "url": "winnie-cooper.jpg",
+        "name": "Winnie Cooper"
+      },
+      {
+        "url": "yellow-frog.jpg",
+        "name": "Yellow Frog"
+      },
+      {
+        "url": "zack-taylor.jpg",
+        "name": "Zack Taylor"
+      }
+    ],
+    "orderType": "Random",
+    "sourceType": "url"
+  },
+  "tags": [
+    "avatars",
+    "characters",
+    "retro",
+    "80s",
+    "90s",
+    "pop culture",
+    "movies",
+    "tv shows",
+    "nostalgia"
+  ]
+}
