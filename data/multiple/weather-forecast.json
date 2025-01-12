@@ -59,7 +59,7 @@
         "name": "time",
         "dataType": "date-time",
         "config": {
-          "dateFormat": "EEE, d MMM",
+          "dateFormat": "EEE, d MMM yyyy",
           "orderType": "Sequential",
           "prefix": "",
           "suffix": ""
