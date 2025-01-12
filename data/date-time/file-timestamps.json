@@ -1,7 +1,7 @@
 {
   "name": "File Timestamps",
   "description": "Date and time formats perfect for file modification and creation dates",
-  "category": "date-time",
+  "datatype": "date-time",
   "isFeatured": false,
   "data": {
     "dateFormat": "yyyy-MM-dd HH:mm",

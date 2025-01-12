@@ -1,7 +1,7 @@
 {
   "name": "Countdown Timer",
   "description": "Countdown numbers for timers, launches, and special events",
-  "category": "number",
+  "datatype": "number",
   "isFeatured": false,
   "data": {
     "min": "1",

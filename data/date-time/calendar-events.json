@@ -1,7 +1,7 @@
 {
   "name": "Calendar Events",
   "description": "Full date formats perfect for calendar events and schedules",
-  "category": "date-time",
+  "datatype": "date-time",
   "isFeatured": false,
   "data": {
     "dateFormat": "EEEE, MMMM d, yyyy",

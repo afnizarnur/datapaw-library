@@ -1,7 +1,7 @@
 {
   "name": "E-commerce Stats",
   "description": "Shop statistics for sales, inventory, reviews, and customer ratings",
-  "category": "number",
+  "datatype": "number",
   "isFeatured": false,
   "data": {
     "min": "50",

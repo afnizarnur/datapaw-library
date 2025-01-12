@@ -1,7 +1,7 @@
 {
   "name": "Social Media Stats",
   "description": "Common social media numbers like views, likes, and followers with K/M formatting",
-  "category": "number",
+  "datatype": "number",
   "isFeatured": false,
   "data": {
     "min": "1000",

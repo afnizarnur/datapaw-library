@@ -1,7 +1,7 @@
 {
   "name": "IDR Exchange Rate Today",
   "description": "Current exchange rate data for IDR against various currencies.",
-  "category": "json",
+  "datatype": "json",
   "isFeatured": false,
   "data": {
     "sourceType": "url",

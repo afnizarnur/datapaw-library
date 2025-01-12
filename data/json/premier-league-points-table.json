@@ -1,7 +1,7 @@
 {
   "name": "Premier League Points Table",
   "description": "A comprehensive overview of the Premier League points standings.",
-  "category": "json",
+  "datatype": "json",
   "isFeatured": true,
   "data": {
     "sourceType": "url",

@@ -1,7 +1,7 @@
 {
   "name": "Gaming Stats",
   "description": "Fun gaming numbers for high scores, levels, XP points, and achievements",
-  "category": "number",
+  "datatype": "number",
   "isFeatured": false,
   "data": {
     "min": "9000",

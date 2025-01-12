@@ -1,7 +1,7 @@
 {
   "name": "Button Labels",
   "description": "A collection of common button labels and call-to-action text",
-  "category": "string",
+  "datatype": "string",
   "isFeatured": false,
   "data": {
     "textItems": [

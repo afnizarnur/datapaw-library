@@ -1,7 +1,7 @@
 {
   "name": "Rick and Morty Characters",
   "description": "A comprehensive dataset of characters from the Rick and Morty universe, including their details and attributes.",
-  "category": "json",
+  "datatype": "json",
   "isFeatured": false,
   "data": {
     "sourceType": "url",

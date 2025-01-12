@@ -1,7 +1,7 @@
 {
   "name": "Oscar Best Picture Winners",
   "description": "A comprehensive collection of Oscar Best Picture award winners, showcasing cinematic excellence.",
-  "category": "json",
+  "datatype": "json",
   "isFeatured": true,
   "data": {
     "sourceType": "direct",

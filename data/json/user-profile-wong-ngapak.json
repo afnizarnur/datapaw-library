@@ -1,7 +1,7 @@
 {
   "name": "User Profiles Wong Ngapak",
   "description": "Collection of user profile data localized for wong asli Banyumasan for mockups",
-  "category": "json",
+  "datatype": "json",
   "isFeatured": true,
   "data": {
     "sourceType": "direct",

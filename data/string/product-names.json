@@ -1,7 +1,7 @@
 {
   "name": "Product Names",
   "description": "A collection of modern product names for tech, fashion, and lifestyle items",
-  "category": "string",
+  "datatype": "string",
   "isFeatured": false,
   "data": {
     "textItems": [

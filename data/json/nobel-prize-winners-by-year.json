@@ -1,7 +1,7 @@
 {
   "name": "Nobel Prize Winners by Year",
   "description": "A comprehensive collection of Nobel Prize winners categorized by year, showcasing achievements in various fields.",
-  "category": "json",
+  "datatype": "json",
   "isFeatured": false,
   "data": {
     "sourceType": "direct",

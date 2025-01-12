@@ -1,7 +1,7 @@
 {
   "name": "User Profile",
   "description": "User profile information with name, bio, stats, and join date",
-  "category": "multiple",
+  "datatype": "multiple",
   "isFeatured": false,
   "tags": ["profile", "user", "multi-variable", "account"],
   "data": {

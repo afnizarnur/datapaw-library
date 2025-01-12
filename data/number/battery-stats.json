@@ -1,7 +1,7 @@
 {
   "name": "Battery Stats",
   "description": "Device battery statistics with percentage and time remaining",
-  "category": "number",
+  "datatype": "number",
   "isFeatured": false,
   "data": {
     "min": "1",

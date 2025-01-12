@@ -1,7 +1,7 @@
 {
   "name": "Current Movies in Thailand",
   "description": "A dataset providing information about the latest movies available in Thailand, including showtimes and details.",
-  "category": "json",
+  "datatype": "json",
   "isFeatured": false,
   "data": {
     "sourceType": "url",

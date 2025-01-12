@@ -1,7 +1,7 @@
 {
   "name": "GBP Exchange Rate Today",
   "description": "Current exchange rate data for GBP against various currencies.",
-  "category": "json",
+  "datatype": "json",
   "isFeatured": false,
   "data": {
     "sourceType": "url",

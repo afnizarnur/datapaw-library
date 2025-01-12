@@ -1,7 +1,7 @@
 {
   "name": "USD Exchange Rate Today",
   "description": "Current exchange rate data for USD against various currencies.",
-  "category": "json",
+  "datatype": "json",
   "isFeatured": false,
   "data": {
     "sourceType": "url",

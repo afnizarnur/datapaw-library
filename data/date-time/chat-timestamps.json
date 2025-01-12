@@ -1,7 +1,7 @@
 {
   "name": "Chat Timestamps",
   "description": "Time-only formats perfect for chat messages and instant messaging",
-  "category": "date-time",
+  "datatype": "date-time",
   "isFeatured": false,
   "data": {
     "dateFormat": "hh:mm:ss a",

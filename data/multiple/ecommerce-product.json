@@ -1,7 +1,7 @@
 {
   "name": "E-commerce Product",
   "description": "Product details with name, price, rating, and stock information",
-  "category": "multiple",
+  "datatype": "multiple",
   "isFeatured": false,
   "tags": ["product", "e-commerce", "multi-variable", "shop"],
   "data": {

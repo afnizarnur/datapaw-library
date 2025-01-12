@@ -1,7 +1,7 @@
 {
   "name": "Weather Forecast",
   "description": "Weather forecast information with temperature, condition, and time",
-  "category": "multiple",
+  "datatype": "multiple",
   "isFeatured": false,
   "tags": ["weather", "forecast", "multi-variable", "climate"],
   "data": {

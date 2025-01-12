@@ -1,7 +1,7 @@
 {
   "name": "Random Chat",
   "description": "Random Chat",
-  "category": "multiple",
+  "datatype": "multiple",
   "isFeatured": false,
   "tags": ["product", "e-commerce", "multi-variable", "shop"],
   "data": {

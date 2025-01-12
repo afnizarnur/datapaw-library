@@ -1,7 +1,7 @@
 {
   "name": "World Population By Country 2020",
   "description": "A comprehensive dataset detailing the population of countries around the world as of 2020, useful for demographic analysis and research.",
-  "category": "json",
+  "datatype": "json",
   "isFeatured": false,
   "data": {
     "sourceType": "direct",

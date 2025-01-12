@@ -1,7 +1,7 @@
 {
   "name": "Social Media Post",
   "description": "Social media post with username, content, likes, and timestamp",
-  "category": "multiple",
+  "datatype": "multiple",
   "isFeatured": false,
   "tags": ["social", "post", "multi-variable", "content"],
   "data": {

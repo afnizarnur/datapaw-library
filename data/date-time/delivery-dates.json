@@ -1,7 +1,7 @@
 {
   "name": "Delivery Dates",
   "description": "Short date formats perfect for delivery estimates and shipping dates",
-  "category": "date-time",
+  "datatype": "date-time",
   "isFeatured": false,
   "data": {
     "dateFormat": "EEE, d MMM yyyy",
