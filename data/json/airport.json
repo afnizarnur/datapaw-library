@@ -1,0 +1,12 @@
+{
+  "name": "Global Airport Directory",
+  "description": "A comprehensive dataset of airports worldwide, including their locations and details.",
+  "datatype": "json",
+  "isFeatured": false,
+  "data": {
+    "sourceType": "url",
+    "url": "https://gist.githubusercontent.com/tdreyno/4278655/raw/7b0762c09b519f40397e4c3e100b097d861f5588/airports.json",
+    "orderType": "Random"
+  },
+  "tags": ["airports", "global", "locations", "travel", "transportation"]
+}
