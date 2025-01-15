@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/afnizarnur/context">
-    <img src="https://github.com/user-attachments/assets/33309367-deda-45d6-9990-8148da575ef6" width="44">
+    <img src="https://github.com/user-attachments/assets/33309367-deda-45d6-9990-8148da575ef6" width="60">
   </a>
 </div>
 
@@ -32,10 +32,10 @@ Each data type in this library is carefully curated and ready to use in your Fig
 The library follows this structure:
 ```
 data/
-├── string/           # String data files
-├── number/           # Number data files
-├── date-time/        # Date and time data files
-├── multiple/         # Multi-variable data files
+├── string/          # String data files
+├── number/          # Number data files
+├── date-time/       # Date and time data files
+├── multiple/        # Multi-variable data files
 ├── json/            # JSON data files
 ├── google-sheets/   # Google Sheets configurations
 └── image/           # Image collections
