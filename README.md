@@ -56,18 +56,12 @@ Datapaw Library is powered by the community! We welcome contributions that help 
 
 To maintain quality and usefulness, contributed data should meet these criteria:
 
-- [ ] **Realistic & Professional**
-  - Data should be realistic and appropriate for professional design mockups
-- [ ] **Well-Structured**
-  - Follow the existing folder structure and file naming conventions
-- [ ] **Clean & Safe**
-  - No sensitive, personal, offensive, or copyrighted content
-- [ ] **Properly Formatted**
-  - Data should be properly formatted according to its type (JSON for structured data)
-- [ ] **Well-Documented**
-  - Include a clear description of the data and its intended use
-- [ ] **Reasonable Size**
-  - Keep file sizes reasonable (max 5MB for images, 1MB for other types)
+- [ ] **Realistic & Professional**, data should be realistic and appropriate for professional design mockups
+- [ ] **Well-Structured**, follow the existing folder structure and file naming conventions
+- [ ] **Clean & Safe**, no sensitive, personal, offensive, or copyrighted content
+- [ ] **Properly Formatted**, data should be properly formatted according to its type (JSON for structured data)
+- [ ] **Well-Documented**, include a clear description of the data and its intended use
+- [ ] **Reasonable Size**, keep file sizes reasonable (max 5MB for images, 1MB for other types)
 
 > [!IMPORTANT]
 > Contributions containing sensitive, personal, offensive, or copyrighted content will be rejected.
