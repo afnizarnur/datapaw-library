@@ -1,245 +1,180 @@
-# Datapaw Library
+<div align="center">
+  <a href="https://github.com/afnizarnur/context">
+    <img src="https://github.com/user-attachments/assets/33309367-deda-45d6-9990-8148da575ef6" width="44">
+  </a>
+</div>
 
-A collection of ready-to-use data for the Datapaw Figma plugin. This repository contains various data types that can be used in your design mockups.
+<h1 align="center">Datapaw Library</h1>
+<p align="center">A collection of ready-to-use data for the Datapaw Figma plugin powered by the community. This repository contains various data types that can be used in your design mockups.</p>
 
-## Data Types
+## Getting Started
 
-The library currently supports the following data types:
+1. Install [Datapaw Figma Plugin](https://www.figma.com/community/plugin/1434312636542908147/datapaw-google-sheets-json-string-currency-number-fake-data-and-more)
+2. Open the plugin and navigate to the Library tab
+3. Browse through the available data types and use them in your designs
 
-- **String**: Text data like names, titles, descriptions
-- **Number**: Numeric data with configurable ranges and formats
-- **Percent**: Percentage values with optional formatting
-- **Currency**: Monetary values with currency symbols
-- **Date-Time**: Date and time values in various formats
-- **JSON**: Structured data in JSON format
-- **Multiple**: Combined data types for complex use cases
-- **Image**: Image data from URLs or frames
+## Supported Data Types
 
-## Directory Structure
+The Datapaw library includes the following ready-to-use data types:
 
+1. **Multi Variable** - Pre-configured data combinations for complex design needs
+2. **JSON** - Ready-to-use JSON data structures
+3. **Google Sheets** - Sample Google Sheets configurations and templates
+4. **String** - Curated lists of text data
+5. **Number** - Pre-configured numeric data sets
+6. **Date & Time** - Sample date and time formats
+7. **Image** - Collection of design-ready images
+
+Each data type in this library is carefully curated and ready to use in your Figma designs through the Datapaw plugin's Library tab.
+
+## File Structure
+
+The library follows this structure:
 ```
-datapaw-library/
-├── data/                 # Data directory
-│   ├── string/           # String data
-│   ├── number/           # Number data
-│   ├── percent/          # Percentage data
-│   ├── currency/         # Currency data
-│   ├── date-time/        # Date and time data
-│   ├── json/             # JSON data
-│   ├── image/            # Image data
-│   └── multiple/         # Multi-variable data
+data/
+├── string/           # String data files
+├── number/           # Number data files
+├── date-time/        # Date and time data files
+├── multiple/         # Multi-variable data files
+├── json/            # JSON data files
+├── google-sheets/   # Google Sheets configurations
+└── image/           # Image collections
+    └── collection-name/
+        ├── collection-name.json
+        └── [image files]
 ```
 
 ## Contributing
 
-We welcome contributions! Here's how you can add new data:
+Datapaw Library is powered by the community! We welcome contributions that help designers create better mockups with realistic data. To contribute:
 
 1. Fork this repository
-2. Create a new branch: `git checkout -b add-new-data`
-3. Add your data in the appropriate directory
-4. Submit a pull request
+2. Add your data to the appropriate folder in `/data`
+3. Create a pull request with a clear description of your contribution
 
-### Data Structure
+### Data Criteria
 
-Each data file should be a JSON file with the following structure:
+To maintain quality and usefulness, contributed data should meet these criteria:
+
+1. **Realistic & Professional** - Data should be realistic and appropriate for professional design mockups
+2. **Well-Structured** - Follow the existing folder structure and file naming conventions
+3. **Clean & Safe** - No sensitive, personal, offensive, or copyrighted content
+4. **Properly Formatted** - Data should be properly formatted according to its type (JSON for structured data)
+5. **Well-Documented** - Include a clear description of the data and its intended use
+6. **Reasonable Size** - Keep file sizes reasonable (max 5MB for images, 1MB for other types)
+
+> [!IMPORTANT]
+> Contributions containing sensitive, personal, offensive, or copyrighted content will be rejected.
+
+## Examples
+
+Here are examples of how to structure data for each type:
+
+### String Data
+The `orderType` field accepts: "Random" (default), "AsEntered", or "ReverseOrder"
 
 ```json
 {
-  "name": "Data Name",
-  "description": "Brief description of the data",
-  "category": "data-type",
-  "isFeatured": boolean,
-  "data": {
-    // Data type specific configuration
-  },
-  "tags": ["tag1", "tag2"]
-}
-```
-
-### Data Type Configurations
-
-#### String Data
-```json
-{
-  "data": {
-    "textItems": ["item1", "item2", "item3"],
-    "orderType": "Random" | "AsEntered" | "ReverseOrder",
-    "prefix": "",
-    "suffix": ""
-  }
-}
-```
-
-#### Number Data
-```json
-{
-  "data": {
-    "min": "0",
-    "max": "100",
-    "decimalPlaces": "2",
-    "useSeparator": boolean,
-    "prefix": "",
-    "suffix": ""
-  }
-}
-```
-
-#### Percent Data
-```json
-{
-  "data": {
-    "min": "0",
-    "max": "100",
-    "decimalPlaces": "0",
-    "useSeparator": boolean,
-    "prefix": "",
-    "suffix": ""
-  }
-}
-```
-
-Example use cases:
-- Progress indicators (0-100%, no decimals)
-- Test scores (60-100%, one decimal)
-- Completion rates (0-100%, no decimals)
-
-#### Date-Time Data
-```json
-{
-  "data": {
-    "dateFormat": "yyyy-MM-dd HH:mm",
-    "orderType": "Random" | "Sequential" | "ReverseOrder",
-    "prefix": "",
-    "suffix": ""
-  }
-}
-```
-
-Available date formats:
-- Full formats: `"EEEE, d MMMM yyyy"` (Thursday, 12 October 2024)
-- Standard dates: `"yyyy-MM-dd"` (2024-03-20)
-- With time (24h): `"yyyy-MM-dd HH:mm"` (2024-03-20 15:30)
-- With time (12h): `"yyyy-MM-dd hh:mm a"` (2024-03-20 03:30 PM)
-- Time only: `"HH:mm"` (15:30) or `"hh:mm a"` (03:30 PM)
-
-#### JSON Data
-For direct input:
-```json
-{
-  "data": {
-    "sourceType": "direct",
-    "content": "stringified JSON data",
-    "orderType": "Random" | "AsEntered" | "ReverseOrder"
-  }
-}
-```
-
-For URL source:
-```json
-{
-  "data": {
-    "sourceType": "url",
-    "url": "URL to JSON file",
-    "orderType": "Random" | "AsEntered" | "ReverseOrder"
-  }
-}
-```
-
-Example use cases:
-- User profiles with nested data
-- Product catalogs with specifications
-- Settings configurations
-- API response mockups
-
-Source types:
-- **Direct**: JSON content is provided directly in the `content` field. Useful for static data or when you want to include the data within the library.
-- **URL**: JSON data is fetched from a URL specified in the `url` field. Useful for dynamic data or when the data is too large to include directly.
-
-#### Image Data
-```json
-{
-  "data": {
-    "images": [
-      {
-        "url": "image-url",
-        "name": "image-name"
-      }
-    ],
-    "orderType": "Random" | "AsEntered" | "ReverseOrder",
-    "sourceType": "uploaded" | "frame"
-  }
-}
-```
-
-#### Multiple Data
-```json
-{
-  "name": "Example Multi-Variable Data",
-  "description": "Example showing different data types in multi-variable",
-  "category": "multiple",
+  "name": "Button Labels",
+  "description": "A collection of common button labels and call-to-action text",
+  "datatype": "string",
   "isFeatured": false,
-  "tags": ["example", "multi-variable"],
+  "data": {
+    "textItems": [
+      "Get Started",
+      "Learn More",
+      "Sign Up Now"
+    ],
+    "orderType": "Random",
+    "prefix": "",
+    "suffix": ""
+  },
+  "tags": [
+    "buttons",
+    "cta",
+    "ui"
+  ]
+}
+```
+
+### Number Data
+```json
+{
+  "name": "Ratings",
+  "description": "Rating scores from 1 to 5 with one decimal place",
+  "datatype": "number",
+  "isFeatured": false,
+  "data": {
+    "min": "1",
+    "max": "5",
+    "decimalPlaces": "1",
+    "useSeparator": false,
+    "prefix": "",
+    "suffix": " ⭐"
+  },
+  "tags": ["rating", "score", "stars", "review"]
+}
+```
+
+### Date & Time Data
+The `orderType` field accepts: "Sequential" (chronological), "Random", or "ReverseOrder"
+
+```json
+{
+  "name": "Calendar Events",
+  "description": "Full date formats perfect for calendar events and schedules",
+  "datatype": "date-time",
+  "isFeatured": false,
+  "data": {
+    "dateFormat": "EEEE, MMMM d, yyyy",
+    "orderType": "Sequential",
+    "prefix": "",
+    "suffix": ""
+  },
+  "tags": [
+    "calendar",
+    "events",
+    "schedule"
+  ]
+}
+```
+
+### Multi Variable Data
+For string variables, the `orderType` field accepts: "Random" (default), "AsEntered", or "ReverseOrder"
+
+```json
+{
+  "name": "E-commerce Product",
+  "description": "Product details with name, price, rating, and stock information",
+  "datatype": "multiple",
+  "isFeatured": false,
+  "tags": ["product", "e-commerce", "multi-variable", "shop"],
   "data": {
     "variables": [
       {
-        "id": "string-var",
+        "id": "product-name",
         "name": "productName",
         "dataType": "string",
         "config": {
-          "textItems": ["Product A", "Product B", "Product C"],
+          "textItems": [
+            "AirFlow Pro Wireless Earbuds",
+            "ZenBook Ultra Laptop"
+          ],
           "orderType": "Random",
           "prefix": "",
           "suffix": ""
         }
       },
       {
-        "id": "number-var",
-        "name": "quantity",
+        "id": "product-price",
+        "name": "price",
         "dataType": "number",
         "config": {
-          "min": "1",
-          "max": "100",
-          "decimalPlaces": "0",
-          "useSeparator": true,
-          "prefix": "",
-          "suffix": " units"
-        }
-      },
-      {
-        "id": "percent-var",
-        "name": "discount",
-        "dataType": "percent",
-        "config": {
-          "min": "10",
-          "max": "50",
-          "decimalPlaces": "0",
-          "useSeparator": false,
-          "prefix": "",
-          "suffix": "% off"
-        }
-      },
-      {
-        "id": "currency-var",
-        "name": "price",
-        "dataType": "currency",
-        "config": {
-          "min": "9.99",
-          "max": "99.99",
+          "min": "29.99",
+          "max": "999.99",
           "decimalPlaces": "2",
           "useSeparator": true,
-          "currency": "USD",
-          "symbolPosition": "before",
-          "useSymbol": true
-        }
-      },
-      {
-        "id": "date-var",
-        "name": "lastUpdated",
-        "dataType": "date-time",
-        "config": {
-          "dateFormat": "yyyy-MM-dd HH:mm",
-          "orderType": "Random",
-          "prefix": "Updated: ",
+          "prefix": "$",
           "suffix": ""
         }
       }
@@ -248,169 +183,120 @@ Source types:
 }
 ```
 
-Multi variable data allows you to define multiple variables with different data types in a single content. Each variable can be configured independently with its own settings.
+### JSON Data
+The data can be provided in two ways:
+- Use `sourceType: "url"` with a `url` field pointing to a JSON file
+- Use `sourceType: "direct"` with a `content` field containing stringified JSON data (use [JSON Stringify Online](https://jsonformatter.org/json-stringify-online) to convert your JSON)
 
-Each variable object has the following fields:
-- `id`: Unique identifier for the variable
-- `name`: Variable name (used as the layer name prefix)
-- `dataType`: Type of data ("string", "number", "percent", "currency", "date-time", "image")
-- `config`: Configuration object specific to the data type (see individual data type sections for config options)
+The `orderType` field accepts: "Random" (default), "AsEntered", or "ReverseOrder"
 
-#### Google Sheets Data
 ```json
 {
+  "name": "Global Airport Directory",
+  "description": "A comprehensive dataset of airports worldwide, including their locations and details.",
+  "datatype": "json",
+  "isFeatured": false,
   "data": {
-    "url": "https://docs.google.com/spreadsheets/d/...",
-    "orderType": "Random" | "AsEntered" | "ReverseOrder"
-  }
+    "sourceType": "url",
+    "url": "https://example.com/airports.json",
+    "orderType": "Random"
+  },
+  "tags": ["airports", "global", "locations", "travel"]
 }
 ```
 
-Example use cases:
-- Product catalogs with multiple columns (name, price, description)
-- User databases with structured information
-- Content management for text and data
-- Dynamic data that needs frequent updates
-
-Requirements:
-- The Google Sheets document must be publicly accessible
-- The first row should contain column headers
-- Each column represents a different data field
-- Each row represents a single data entry
-
-Example sheet structure:
-```
-| Name     | Email            | Role      | Department |
-|----------|------------------|-----------|------------|
-| John Doe | john@example.com | Developer | Engineering|
-| Jane Doe | jane@example.com | Designer  | Design     |
+Example with direct content:
+```json
+{
+  "name": "Simple User List",
+  "description": "A list of users with basic information",
+  "datatype": "json",
+  "isFeatured": false,
+  "data": {
+    "sourceType": "direct",
+    "content": "[{\"id\":1,\"name\":\"John Doe\",\"role\":\"Designer\"},{\"id\":2,\"name\":\"Jane Smith\",\"role\":\"Developer\"}]",
+    "orderType": "Random"
+  },
+  "tags": ["users", "people", "directory"]
+}
 ```
 
-### Pull Request Guidelines
+### Google Sheets Data
+The `orderType` field accepts: "Random" (default), "AsEntered", or "ReverseOrder"
 
-When submitting a PR, please ensure:
-
-1. Your data follows the correct structure for its type
-2. The data name is descriptive and unique
-3. The description clearly explains the data's purpose
-4. Tags are relevant and help in searching
-5. The `isFeatured` flag is set appropriately (use sparingly)
-6. All values are properly formatted as strings where required
-
-### Example PR Description
-
-```markdown
-## New Data: [Data Name]
-
-**Data Type:** [string/number/percent/etc]
-**Purpose:** Brief explanation of what this data is for
-
-### Data Details
-- Name: [name]
-- Description: [description]
-- Featured: [yes/no]
-- Tags: [list of tags]
-
-### Use Cases
-- Example use case 1
-- Example use case 2
-
-### Testing
-- [ ] Verified JSON structure
-- [ ] Tested in Datapaw plugin
-- [ ] Checked for duplicate data
+```json
+{
+  "name": "Retro User Avatars",
+  "description": "An extensive collection of user profiles featuring avatars inspired by the vibrant styles of the 1980s and 1990s",
+  "datatype": "google-sheets",
+  "isFeatured": false,
+  "data": {
+    "url": "https://docs.google.com/spreadsheets/d/your-sheet-id/edit?usp=sharing",
+    "orderType": "AsEntered"
+  },
+  "tags": [
+    "user profiles",
+    "retro avatars",
+    "data collection"
+  ]
+}
 ```
+
+> [!NOTE]
+> For Google Sheets data, make sure your sheet is publicly accessible with "Anyone with the link can view" permission.
+
+### Image Data
+Place all image files in the same folder as the JSON file. The `url` field should be the filename of the image.
+
+```json
+{
+  "name": "Rad Faces - Retro Character Avatars",
+  "description": "A collection of nostalgic character avatars from the 80s and 90s featuring iconic characters from movies, TV shows, and pop culture.",
+  "datatype": "image",
+  "isFeatured": false,
+  "data": {
+    "images": [
+      {
+        "url": "aeon-flux.jpg",
+        "name": "Aeon Flux"
+      },
+      {
+        "url": "akira.jpg",
+        "name": "Akira"
+      }
+    ]
+  },
+  "tags": ["avatars", "retro", "characters", "90s"]
+}
+```
+
+## FAQ
+
+### What should I do if a data source is not working?
+- For JSON URLs that become inaccessible, please [create an issue](https://github.com/afnizarnur/datapaw-library/issues) with the data name and URL
+- For Google Sheets, make sure the sheet is publicly accessible with "Anyone with the link can view" permission
+- For image files, check if all images referenced in the JSON file exist in the same folder
+
+### How do I report a problem with the data?
+1. Check if the issue is already reported in the [Issues tab](https://github.com/afnizarnur/datapaw-library/issues)
+2. If not, create a new issue with:
+   - Data type and name
+   - Description of the problem
+   - Steps to reproduce the issue
+   - Expected behavior
+
+### Can I update existing data?
+Yes! If you find outdated or incorrect data:
+1. Fork the repository
+2. Make your changes
+3. Submit a pull request with a clear description of the updates
+
+### How do I suggest new data types?
+Use the [Issues tab](https://github.com/afnizarnur/datapaw-library/issues) to suggest new data types. Include:
+- Description of the data type
+- Use cases and examples
+- Any specific formatting requirements
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
-
-## Multi Variable Data
-
-Multi variable data allows you to define multiple variables with different data types in a single content. Each variable can be configured independently with its own settings.
-
-### Structure
-
-```json
-{
-  "name": "Random Chat",
-  "description": "Random chat messages with names",
-  "category": "multiple",
-  "isFeatured": false,
-  "tags": ["chat", "messages", "multi-variable"],
-  "data": {
-    "variables": [
-      {
-        "id": "unique-id-1",
-        "name": "name",
-        "dataType": "string",
-        "config": {
-          "textItems": [
-            "Prabowo Subianto",
-            "Megawati Soekarnoputri",
-            "Anies Baswedan"
-          ],
-          "orderType": "AsEntered",
-          "prefix": "",
-          "suffix": ""
-        }
-      },
-      {
-        "id": "unique-id-2",
-        "name": "chat",
-        "dataType": "string",
-        "config": {
-          "textItems": [
-            "Td liat berita politik di tv, malah ngantuk gw wkwk",
-            "Prabowo mau nyapres lg, emg dia ga capek ya",
-            "Ganjar tuh rambut putihnya makin ikonik bgt ga sih wkwk"
-          ],
-          "orderType": "Random",
-          "prefix": "",
-          "suffix": ""
-        }
-      }
-    ]
-  }
-}
-```
-
-### Fields
-
-- `name`: The name of the content
-- `description`: A brief description of the content
-- `category`: Must be "multiple"
-- `isFeatured`: Whether the content should be featured
-- `tags`: Array of relevant tags
-- `data.variables`: Array of variable objects
-
-### Variable Object
-
-Each variable object has the following fields:
-- `id`: Unique identifier for the variable
-- `name`: Variable name (used as the layer name prefix)
-- `dataType`: Type of data ("string", "number", "percent", "image", "date-time", "currency")
-- `config`: Configuration object specific to the data type
-
-### Example Use Cases
-
-1. Chat Messages:
-   - Name variable for sender names
-   - Message variable for chat content
-   - Can be used to generate realistic chat interfaces
-
-2. Product Data:
-   - Name variable for product names
-   - Price variable for product prices
-   - Description variable for product descriptions
-
-3. User Profiles:
-   - Name variable for user names
-   - Age variable for user ages
-   - Bio variable for user descriptions
-
-### Order Types
-
-- `Random`: Items are selected randomly
-- `AsEntered`: Items are selected in the order they were entered
-- `ReverseOrder`: Items are selected in reverse order 
