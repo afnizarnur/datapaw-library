@@ -5,7 +5,7 @@
 </div>
 
 <h1 align="center">Datapaw Library</h1>
-<p align="center">A collection of ready-to-use data for the Datapaw Figma plugin powered by the community. This repository contains various data types that can be used in your design mockups.</p>
+<p align="center">A collection of ready-to-use data for the Datapaw Figma plugin powered by the community.</p>
 
 ## Getting Started
 
