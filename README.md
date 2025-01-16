@@ -1,31 +1,17 @@
 <div align="center">
-  <a href="https://github.com/afnizarnur/context">
+  <a href="https://www.figma.com/community/plugin/1434312636542908147/datapaw-google-sheets-json-string-currency-number-fake-data-and-more">
     <img src="https://github.com/user-attachments/assets/33309367-deda-45d6-9990-8148da575ef6" width="60">
   </a>
 </div>
 
 <h1 align="center">Datapaw Library</h1>
-<p align="center">A collection of ready-to-use data for the Datapaw Figma plugin powered by the community.</p>
+<p align="center">A collection of ready-to-use data for the Datapaw [Figma](https://www.figma.com/community/plugin/1434312636542908147/datapaw-google-sheets-json-string-currency-number-fake-data-and-more) plugin powered by the community.</p>
 
 ## Getting Started
 
 1. Install [Datapaw Figma Plugin](https://www.figma.com/community/plugin/1434312636542908147/datapaw-google-sheets-json-string-currency-number-fake-data-and-more)
 2. Open the plugin and navigate to the Library tab
 3. Browse through the available data types and use them in your designs
-
-## Supported Data Types
-
-The Datapaw library includes the following ready-to-use data types:
-
-1. **Multi Variable** - Pre-configured data combinations for complex design needs
-2. **JSON** - Ready-to-use JSON data structures
-3. **Google Sheets** - Sample Google Sheets configurations and templates
-4. **String** - Curated lists of text data
-5. **Number** - Pre-configured numeric data sets
-6. **Date & Time** - Sample date and time formats
-7. **Image** - Collection of design-ready images
-
-Each data type in this library is carefully curated and ready to use in your Figma designs through the Datapaw plugin's Library tab.
 
 ## File Structure
 
@@ -43,6 +29,20 @@ data/
         ├── collection-name.json
         └── [image files]
 ```
+
+## Supported Data Types
+
+The Datapaw library includes the following ready-to-use data types:
+
+1. **Multi Variable** - Pre-configured data combinations for complex design needs
+2. **JSON** - Ready-to-use JSON data structures
+3. **Google Sheets** - Sample Google Sheets configurations and templates
+4. **String** - Curated lists of text data
+5. **Number** - Pre-configured numeric data sets
+6. **Date & Time** - Sample date and time formats
+7. **Image** - Collection of design-ready images
+
+Each data type in this library is carefully curated and ready to use in your Figma designs through the Datapaw plugin's Library tab.
 
 ## Contributing
 
@@ -65,6 +65,8 @@ To maintain quality and usefulness, contributed data should meet these criteria:
 
 > [!IMPORTANT]
 > Contributions containing sensitive, personal, offensive, or copyrighted content will be rejected.
+
+---
 
 ## Examples
 
@@ -270,6 +272,8 @@ Place all image files in the same folder as the JSON file. The `url` field shoul
 }
 ```
 
+---
+
 ## FAQ
 
 ### What should I do if a data source is not working?
@@ -286,10 +290,18 @@ Place all image files in the same folder as the JSON file. The `url` field shoul
    - Expected behavior
 
 ### Can I update existing data?
-Yes! If you find outdated or incorrect data:
+Yes! You can contribute by:
+1. Updating outdated or incorrect data
+2. Adding more items to existing data files:
+   - Add more text items to string data
+   - Add more images to image collections
+   - Add more entries to JSON data
+
+Just make sure to:
 1. Fork the repository
 2. Make your changes
 3. Submit a pull request with a clear description of the updates
+4. Follow the same format and quality criteria as the existing data
 
 ### How do I suggest new data types?
 Use the [Issues tab](https://github.com/afnizarnur/datapaw-library/issues) to suggest new data types. Include:
