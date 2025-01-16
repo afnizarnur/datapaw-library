@@ -1,0 +1,602 @@
+{
+  "name": "Movie Collection",
+  "description": "A collection of popular movie franchises including Marvel, James Bond, Fast & Furious, and more. Perfect for movie-related designs and entertainment projects.",
+  "datatype": "multiple",
+  "isFeatured": true,
+  "metadata": {
+    "createdAt": "2024-01-12T00:00:00Z",
+    "modifiedAt": "2024-01-12T00:00:00Z"
+  },
+  "tags": [
+    "movies",
+    "entertainment",
+    "franchises",
+    "marvel",
+    "james bond",
+    "action",
+    "multi-variable"
+  ],
+  "data": {
+    "images": [
+      {
+        "url": "agent-carter.jpg",
+        "name": "Agent Carter"
+      },
+      {
+        "url": "agents.jpg",
+        "name": "Agents of S.H.I.E.L.D."
+      },
+      {
+        "url": "ant-man-1.jpg",
+        "name": "Ant-Man"
+      },
+      {
+        "url": "ant-man-2.jpg",
+        "name": "Ant-Man and the Wasp"
+      },
+      {
+        "url": "avengers-1.jpg",
+        "name": "The Avengers"
+      },
+      {
+        "url": "avengers-2.jpg",
+        "name": "Avengers: Age of Ultron"
+      },
+      {
+        "url": "avengers-3.jpg",
+        "name": "Avengers: Infinity War"
+      },
+      {
+        "url": "avengers-endgame.jpg",
+        "name": "Avengers: Endgame"
+      },
+      {
+        "url": "black-panther.jpg",
+        "name": "Black Panther"
+      },
+      {
+        "url": "blade-1.jpg",
+        "name": "Blade"
+      },
+      {
+        "url": "blade-2.jpg",
+        "name": "Blade II"
+      },
+      {
+        "url": "blade-3.jpg",
+        "name": "Blade: Trinity"
+      },
+      {
+        "url": "bond-01.jpg",
+        "name": "Dr. No"
+      },
+      {
+        "url": "bond-02.jpg",
+        "name": "From Russia with Love"
+      },
+      {
+        "url": "bond-03.jpg",
+        "name": "Goldfinger"
+      },
+      {
+        "url": "bond-04.jpg",
+        "name": "Thunderball"
+      },
+      {
+        "url": "bond-05.jpg",
+        "name": "You Only Live Twice"
+      },
+      {
+        "url": "bond-06.jpg",
+        "name": "On Her Majesty's Secret Service"
+      },
+      {
+        "url": "bond-07.jpg",
+        "name": "Diamonds Are Forever"
+      },
+      {
+        "url": "bond-08.jpg",
+        "name": "Live and Let Die"
+      },
+      {
+        "url": "bond-09.jpg",
+        "name": "The Man with the Golden Gun"
+      },
+      {
+        "url": "bond-10.jpg",
+        "name": "The Spy Who Loved Me"
+      },
+      {
+        "url": "bond-11.jpg",
+        "name": "Moonraker"
+      },
+      {
+        "url": "bond-12.jpg",
+        "name": "For Your Eyes Only"
+      },
+      {
+        "url": "bond-13.jpg",
+        "name": "Octopussy"
+      },
+      {
+        "url": "bond-14.jpg",
+        "name": "A View to a Kill"
+      },
+      {
+        "url": "bond-15.jpg",
+        "name": "The Living Daylights"
+      },
+      {
+        "url": "bond-16.jpg",
+        "name": "Licence to Kill"
+      },
+      {
+        "url": "bond-17.jpg",
+        "name": "GoldenEye"
+      },
+      {
+        "url": "bond-18.jpg",
+        "name": "Tomorrow Never Dies"
+      },
+      {
+        "url": "bond-19.jpg",
+        "name": "The World Is Not Enough"
+      },
+      {
+        "url": "bond-20.jpg",
+        "name": "Die Another Day"
+      },
+      {
+        "url": "bond-21.jpg",
+        "name": "Casino Royale"
+      },
+      {
+        "url": "bond-22.jpg",
+        "name": "Quantum of Solace"
+      },
+      {
+        "url": "bond-23.jpg",
+        "name": "Skyfall"
+      },
+      {
+        "url": "bond-24.jpg",
+        "name": "Spectre"
+      },
+      {
+        "url": "bond-25.jpg",
+        "name": "No Time to Die"
+      },
+      {
+        "url": "bond-26.jpg",
+        "name": "No Time to Die (Alternate)"
+      },
+      {
+        "url": "captain-1.jpg",
+        "name": "Captain America: The First Avenger"
+      },
+      {
+        "url": "captain-2.jpg",
+        "name": "Captain America: The Winter Soldier"
+      },
+      {
+        "url": "captain-3.jpg",
+        "name": "Captain America: Civil War"
+      },
+      {
+        "url": "captain-marvel.jpg",
+        "name": "Captain Marvel"
+      },
+      {
+        "url": "cloak-dagger.jpg",
+        "name": "Cloak & Dagger"
+      },
+      {
+        "url": "daredevil.jpg",
+        "name": "Daredevil"
+      },
+      {
+        "url": "deadpool-1.jpg",
+        "name": "Deadpool"
+      },
+      {
+        "url": "deadpool-2.jpg",
+        "name": "Deadpool 2"
+      },
+      {
+        "url": "defenderes.jpg",
+        "name": "The Defenders"
+      },
+      {
+        "url": "doctor-strange.jpg",
+        "name": "Doctor Strange"
+      },
+      {
+        "url": "fantastic-four-1.jpg",
+        "name": "Fantastic Four"
+      },
+      {
+        "url": "fantastic-four-2.jpg",
+        "name": "Fantastic Four: Rise of the Silver Surfer"
+      },
+      {
+        "url": "fantastic-four-3.jpg",
+        "name": "Fant4stic"
+      },
+      {
+        "url": "fast-1.jpg",
+        "name": "The Fast and the Furious"
+      },
+      {
+        "url": "fast-2.jpg",
+        "name": "2 Fast 2 Furious"
+      },
+      {
+        "url": "fast-3.jpg",
+        "name": "The Fast and the Furious: Tokyo Drift"
+      },
+      {
+        "url": "fast-4.jpg",
+        "name": "Fast & Furious"
+      },
+      {
+        "url": "fast-5.jpg",
+        "name": "Fast Five"
+      },
+      {
+        "url": "fast-6.jpg",
+        "name": "Fast & Furious 6"
+      },
+      {
+        "url": "fast-7.jpg",
+        "name": "Furious 7"
+      },
+      {
+        "url": "fast-8.jpg",
+        "name": "The Fate of the Furious"
+      },
+      {
+        "url": "fifty-1.jpg",
+        "name": "Fifty Shades of Grey"
+      },
+      {
+        "url": "fifty-2.jpg",
+        "name": "Fifty Shades Darker"
+      },
+      {
+        "url": "fifty-3.jpg",
+        "name": "Fifty Shades Freed"
+      },
+      {
+        "url": "final-destination-1.jpg",
+        "name": "Final Destination"
+      },
+      {
+        "url": "final-destination-2.jpg",
+        "name": "Final Destination 2"
+      },
+      {
+        "url": "final-destination-3.jpg",
+        "name": "Final Destination 3"
+      },
+      {
+        "url": "final-destination-4.jpg",
+        "name": "The Final Destination"
+      },
+      {
+        "url": "final-destination-5.jpg",
+        "name": "Final Destination 5"
+      },
+      {
+        "url": "gifted.jpg",
+        "name": "Gifted"
+      },
+      {
+        "url": "guardians-1.jpg",
+        "name": "Guardians of the Galaxy"
+      },
+      {
+        "url": "guardians-2.jpg",
+        "name": "Guardians of the Galaxy Vol. 2"
+      },
+      {
+        "url": "hulk-1.jpg",
+        "name": "The Incredible Hulk"
+      },
+      {
+        "url": "hunger-1.jpg",
+        "name": "The Hunger Games"
+      },
+      {
+        "url": "hunger-2.jpg",
+        "name": "The Hunger Games: Catching Fire"
+      },
+      {
+        "url": "hunger-3.jpg",
+        "name": "The Hunger Games: Mockingjay - Part 1"
+      },
+      {
+        "url": "hunger-4.jpg",
+        "name": "The Hunger Games: Mockingjay - Part 2"
+      },
+      {
+        "url": "inhumans.jpg",
+        "name": "Inhumans"
+      },
+      {
+        "url": "iron-fist.jpg",
+        "name": "Iron Fist"
+      },
+      {
+        "url": "iron-man-1.jpg",
+        "name": "Iron Man"
+      },
+      {
+        "url": "iron-man-2.jpg",
+        "name": "Iron Man 2"
+      },
+      {
+        "url": "iron-man-3.jpg",
+        "name": "Iron Man 3"
+      },
+      {
+        "url": "jesica-jones.jpg",
+        "name": "Jessica Jones"
+      },
+      {
+        "url": "jesica-jones-2.jpg",
+        "name": "Jessica Jones Season 2"
+      },
+      {
+        "url": "jurassic-1.jpg",
+        "name": "Jurassic Park"
+      },
+      {
+        "url": "jurassic-2.jpg",
+        "name": "The Lost World: Jurassic Park"
+      },
+      {
+        "url": "jurassic-3.jpg",
+        "name": "Jurassic Park III"
+      },
+      {
+        "url": "jurassic-4.jpg",
+        "name": "Jurassic World"
+      },
+      {
+        "url": "jurassic-5.jpg",
+        "name": "Jurassic World: Fallen Kingdom"
+      },
+      {
+        "url": "langdon-1.jpg",
+        "name": "The Da Vinci Code"
+      },
+      {
+        "url": "langdon-2.jpg",
+        "name": "Angels & Demons"
+      },
+      {
+        "url": "langdon-3.jpg",
+        "name": "Inferno"
+      },
+      {
+        "url": "legion.jpg",
+        "name": "Legion"
+      },
+      {
+        "url": "legion-2.jpg",
+        "name": "Legion Season 2"
+      },
+      {
+        "url": "logan.jpg",
+        "name": "Logan"
+      },
+      {
+        "url": "luke-cage.jpg",
+        "name": "Luke Cage"
+      },
+      {
+        "url": "luke-cage-2.jpg",
+        "name": "Luke Cage Season 2"
+      },
+      {
+        "url": "maze-1.jpg",
+        "name": "The Maze Runner"
+      },
+      {
+        "url": "maze-2.jpg",
+        "name": "Maze Runner: The Scorch Trials"
+      },
+      {
+        "url": "maze-3.jpg",
+        "name": "Maze Runner: The Death Cure"
+      },
+      {
+        "url": "mission-1.jpg",
+        "name": "Mission: Impossible"
+      },
+      {
+        "url": "mission-2.jpg",
+        "name": "Mission: Impossible 2"
+      }
+    ],
+    "orderType": "Random",
+    "sourceType": "url",
+    "variables": [
+      {
+        "id": "movie-title",
+        "name": "title",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "Agent Carter",
+            "Agents of S.H.I.E.L.D.",
+            "Ant-Man",
+            "Ant-Man and the Wasp",
+            "The Avengers",
+            "Avengers: Age of Ultron",
+            "Avengers: Infinity War",
+            "Avengers: Endgame",
+            "Black Panther",
+            "Blade",
+            "Blade II",
+            "Blade: Trinity",
+            "Dr. No",
+            "From Russia with Love",
+            "Goldfinger",
+            "Thunderball",
+            "You Only Live Twice",
+            "On Her Majesty's Secret Service",
+            "Diamonds Are Forever",
+            "Live and Let Die",
+            "The Man with the Golden Gun",
+            "The Spy Who Loved Me",
+            "Moonraker",
+            "For Your Eyes Only",
+            "Octopussy",
+            "A View to a Kill",
+            "The Living Daylights",
+            "Licence to Kill",
+            "GoldenEye",
+            "Tomorrow Never Dies",
+            "The World Is Not Enough",
+            "Die Another Day",
+            "Casino Royale",
+            "Quantum of Solace",
+            "Skyfall",
+            "Spectre",
+            "No Time to Die",
+            "No Time to Die (Alternate)",
+            "Captain America: The First Avenger",
+            "Captain America: The Winter Soldier",
+            "Captain America: Civil War",
+            "Captain Marvel",
+            "Cloak & Dagger",
+            "Daredevil",
+            "Deadpool",
+            "Deadpool 2",
+            "The Defenders",
+            "Doctor Strange",
+            "Fantastic Four",
+            "Fantastic Four: Rise of the Silver Surfer",
+            "Fant4stic",
+            "The Fast and the Furious",
+            "2 Fast 2 Furious",
+            "The Fast and the Furious: Tokyo Drift",
+            "Fast & Furious",
+            "Fast Five",
+            "Fast & Furious 6",
+            "Furious 7",
+            "The Fate of the Furious",
+            "Fifty Shades of Grey",
+            "Fifty Shades Darker",
+            "Fifty Shades Freed",
+            "Final Destination",
+            "Final Destination 2",
+            "Final Destination 3",
+            "The Final Destination",
+            "Final Destination 5",
+            "Gifted",
+            "Guardians of the Galaxy",
+            "Guardians of the Galaxy Vol. 2",
+            "The Incredible Hulk",
+            "The Hunger Games",
+            "The Hunger Games: Catching Fire",
+            "The Hunger Games: Mockingjay - Part 1",
+            "The Hunger Games: Mockingjay - Part 2",
+            "Inhumans",
+            "Iron Fist",
+            "Iron Man",
+            "Iron Man 2",
+            "Iron Man 3",
+            "Jessica Jones",
+            "Jessica Jones Season 2",
+            "Jurassic Park",
+            "The Lost World: Jurassic Park",
+            "Jurassic Park III",
+            "Jurassic World",
+            "Jurassic World: Fallen Kingdom",
+            "The Da Vinci Code",
+            "Angels & Demons",
+            "Inferno",
+            "Legion",
+            "Legion Season 2",
+            "Logan",
+            "Luke Cage",
+            "Luke Cage Season 2",
+            "The Maze Runner",
+            "Maze Runner: The Scorch Trials",
+            "Maze Runner: The Death Cure",
+            "Mission: Impossible",
+            "Mission: Impossible 2"
+          ],
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "movie-franchise",
+        "name": "franchise",
+        "dataType": "string",
+        "config": {
+          "textItems": [
+            "Marvel Cinematic Universe",
+            "James Bond",
+            "Fast & Furious",
+            "Marvel TV Series",
+            "Marvel Fox Universe",
+            "Fifty Shades",
+            "Final Destination",
+            "The Hunger Games",
+            "Jurassic Park",
+            "Robert Langdon",
+            "The Maze Runner",
+            "Mission: Impossible"
+          ],
+          "orderType": "Random",
+          "prefix": "",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "release-year",
+        "name": "releaseYear",
+        "dataType": "number",
+        "config": {
+          "min": "1962",
+          "max": "2023",
+          "decimalPlaces": "0",
+          "useSeparator": false,
+          "prefix": "",
+          "suffix": ""
+        }
+      },
+      {
+        "id": "movie-rating",
+        "name": "rating",
+        "dataType": "number",
+        "config": {
+          "min": "1",
+          "max": "10",
+          "decimalPlaces": "1",
+          "useSeparator": false,
+          "prefix": "",
+          "suffix": "/10"
+        }
+      },
+      {
+        "id": "movie-runtime",
+        "name": "runtime",
+        "dataType": "number",
+        "config": {
+          "min": "90",
+          "max": "180",
+          "decimalPlaces": "0",
+          "useSeparator": false,
+          "prefix": "",
+          "suffix": " min"
+        }
+      }
+    ]
+  }
+}
