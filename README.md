@@ -7,6 +7,8 @@
 <h1 align="center">Datapaw Library</h1>
 <p align="center">A collection of ready-to-use data for the Datapaw <a href="https://www.figma.com/community/plugin/1434312636542908147/datapaw-google-sheets-json-string-currency-number-fake-data-and-more">Figma</a> plugin powered by the community.</p>
 
+https://github.com/user-attachments/assets/468d8445-af79-426a-9a6d-61340db47a60
+
 ## Getting Started
 
 1. Install [Datapaw Figma Plugin](https://www.figma.com/community/plugin/1434312636542908147/datapaw-google-sheets-json-string-currency-number-fake-data-and-more)
