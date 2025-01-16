@@ -5,7 +5,7 @@
 </div>
 
 <h1 align="center">Datapaw Library</h1>
-<p align="center">A collection of ready-to-use data for the Datapaw [Figma](https://www.figma.com/community/plugin/1434312636542908147/datapaw-google-sheets-json-string-currency-number-fake-data-and-more) plugin powered by the community.</p>
+<p align="center">A collection of ready-to-use data for the Datapaw <a href="https://www.figma.com/community/plugin/1434312636542908147/datapaw-google-sheets-json-string-currency-number-fake-data-and-more">Figma</a> plugin powered by the community.</p>
 
 ## Getting Started
 
