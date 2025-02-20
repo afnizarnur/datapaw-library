@@ -1,0 +1,20 @@
+{
+  "name": "Lyrics Search",
+  "description": "API for retrieving song lyrics based on artist and title.",
+  "datatype": "api",
+  "isFeatured": false,
+  "data": {
+    "url": "https://api.lyrics.ovh/v1/:artist/:title",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "orderType": "Random",
+    "authType": "NoAuth",
+    "pathVariables": {
+      "artist": "babymonster",
+      "title": "sheesh"
+    }
+  },
+  "tags": ["lyrics", "music", "api", "song", "artist", "search"]
+}
