@@ -16,60 +16,65 @@ const DATA_DIR = path.join(__dirname, "../data")
 async function getFileMetadata(filePath) {
   // Get file stats for basic metadata
   const stats = fs.statSync(filePath)
-  
+
   // Get relative path from data directory
   const relativePath = path.relative(DATA_DIR, filePath)
   const githubPath = `data/${relativePath}`
-  
+
   try {
     // Use GitHub API to get file history
     const githubToken = process.env.GITHUB_TOKEN
     if (!githubToken) {
       throw new Error("GITHUB_TOKEN not available")
     }
-    
+
     // Get file commits to find creation and last modification dates
-    const commitsUrl = `https://api.github.com/repos/afnizarnur/datapaw-library/commits?path=${encodeURIComponent(githubPath)}&per_page=100`
-    
+    const commitsUrl = `https://api.github.com/repos/afnizarnur/datapaw-library/commits?path=${encodeURIComponent(
+      githubPath
+    )}&per_page=100`
+
     const response = await fetch(commitsUrl, {
       headers: {
-        'Authorization': `Bearer ${githubToken}`,
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'Datapaw-Index-Generator'
-      }
+        Authorization: `Bearer ${githubToken}`,
+        Accept: "application/vnd.github.v3+json",
+        "User-Agent": "Datapaw-Index-Generator",
+      },
     })
-    
+
     if (!response.ok) {
       throw new Error(`GitHub API error: ${response.status}`)
     }
-    
+
     const commits = await response.json()
-    
+
     if (commits.length === 0) {
       throw new Error("No commits found for file")
     }
-    
+
     // Last commit (most recent modification)
     const lastCommit = commits[0]
     const modifiedAt = lastCommit.commit.author.date
-    
+
     // First commit (creation) - commits are in reverse chronological order
     const firstCommit = commits[commits.length - 1]
     const createdAt = firstCommit.commit.author.date
-    
+
     return {
       createdAt,
       modifiedAt,
       size: stats.size,
     }
   } catch (error) {
-    console.warn(`⚠️  Could not fetch GitHub metadata for ${githubPath}: ${error.message}`)
+    console.warn(
+      `⚠️  Could not fetch GitHub metadata for ${githubPath}: ${error.message}`
+    )
     console.warn(`   Falling back to file system timestamps`)
-    
+
     // Fallback to file system timestamps
-    const createdAt = stats.birthtime.getTime() > 0 ? stats.birthtime : stats.ctime
+    const createdAt =
+      stats.birthtime.getTime() > 0 ? stats.birthtime : stats.ctime
     const modifiedAt = stats.mtime
-    
+
     return {
       createdAt: createdAt.toISOString(),
       modifiedAt: modifiedAt.toISOString(),
@@ -233,7 +238,7 @@ async function generateIndex() {
 }
 
 // Run the script
-generateIndex().catch(error => {
+generateIndex().catch((error) => {
   console.error("❌ Failed to generate index:", error)
   process.exit(1)
 })
