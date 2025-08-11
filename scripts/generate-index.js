@@ -16,9 +16,16 @@ const DATA_DIR = path.join(__dirname, "../data")
 function getFileMetadata(filePath) {
   // Get file stats for basic metadata
   const stats = fs.statSync(filePath)
+
+  // Use more reliable timestamps
+  // birthtime might not be available on all systems, fallback to ctime
+  const createdAt =
+    stats.birthtime.getTime() > 0 ? stats.birthtime : stats.ctime
+  const modifiedAt = stats.mtime
+
   return {
-    createdAt: stats.birthtime.toISOString(),
-    modifiedAt: stats.mtime.toISOString(),
+    createdAt: createdAt.toISOString(),
+    modifiedAt: modifiedAt.toISOString(),
     size: stats.size,
   }
 }
@@ -116,6 +123,8 @@ function generateIndex() {
               const filePath = path.join(dirPath, jsonFile)
               const fileData = JSON.parse(fs.readFileSync(filePath, "utf8"))
               const metadata = getFileMetadata(filePath)
+
+
 
               allData.push({
                 id: `${dirName}-${jsonFile.replace(".json", "")}`,
