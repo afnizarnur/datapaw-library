@@ -11,28 +11,46 @@
 const fs = require("fs")
 const path = require("path")
 
+// Load environment variables from .env file if it exists
+try {
+  require("dotenv").config({ path: path.join(__dirname, "../.env") })
+} catch (error) {
+  // dotenv not installed, continue without it
+  console.log("ℹ️  dotenv not available, using system environment variables")
+}
+
 const DATA_DIR = path.join(__dirname, "../data")
+
+// Default author configuration - can be overridden via environment variables
+const DEFAULT_AUTHOR = {
+  name: process.env.DEFAULT_AUTHOR_NAME || "Datapaw",
+  githubUsername: process.env.DEFAULT_AUTHOR_GITHUB || "afnizarnur",
+  avatarUrl:
+    process.env.DEFAULT_AUTHOR_AVATAR || "https://github.com/afnizarnur.png",
+}
 
 async function getFileMetadata(filePath) {
   // Get file stats for basic metadata
   const stats = fs.statSync(filePath)
-  
+
   // Get relative path from data directory
   const relativePath = path.relative(DATA_DIR, filePath)
   const githubPath = `data/${relativePath}`
-  
+
   try {
     // Use GitHub API to get file history
     const githubToken = process.env.GITHUB_TOKEN
     if (!githubToken) {
-      throw new Error("GITHUB_TOKEN not available")
+      throw new Error(
+        "GITHUB_TOKEN environment variable not set. Please create a .env file or set the environment variable."
+      )
     }
-    
+
     // Get file commits to find creation and last modification dates
     const commitsUrl = `https://api.github.com/repos/afnizarnur/datapaw-library/commits?path=${encodeURIComponent(
       githubPath
     )}&per_page=100`
-    
+
     const response = await fetch(commitsUrl, {
       headers: {
         Authorization: `Bearer ${githubToken}`,
@@ -40,126 +58,58 @@ async function getFileMetadata(filePath) {
         "User-Agent": "Datapaw-Index-Generator",
       },
     })
-    
+
     if (!response.ok) {
       throw new Error(`GitHub API error: ${response.status}`)
     }
-    
+
     const commits = await response.json()
-    
+
     if (commits.length === 0) {
       throw new Error("No commits found for file")
     }
-    
+
     // Last commit (most recent modification)
     const lastCommit = commits[0]
     const modifiedAt = lastCommit.commit.author.date
-    
+
     // First commit (creation) - commits are in reverse chronological order
     const firstCommit = commits[commits.length - 1]
     const createdAt = firstCommit.commit.author.date
-    
+
+    // Get author information from the first commit (file creator)
+    const author = firstCommit.author || firstCommit.commit.author
+    const commitAuthor = {
+      name: author.name || author.login || "Unknown",
+      githubUsername: author.login || "unknown",
+      avatarUrl:
+        author.avatar_url ||
+        `https://github.com/${author.login || "unknown"}.png`,
+    }
+
     return {
       createdAt,
       modifiedAt,
       size: stats.size,
+      commitAuthor,
     }
   } catch (error) {
     console.warn(
       `⚠️  Could not fetch GitHub metadata for ${githubPath}: ${error.message}`
     )
     console.warn(`   Falling back to file system timestamps`)
-    
+
     // Fallback to file system timestamps
     const createdAt =
       stats.birthtime.getTime() > 0 ? stats.birthtime : stats.ctime
     const modifiedAt = stats.mtime
-    
+
     return {
       createdAt: createdAt.toISOString(),
       modifiedAt: modifiedAt.toISOString(),
       size: stats.size,
+      commitAuthor: DEFAULT_AUTHOR,
     }
-  }
-}
-
-async function getFileAuthors(filePath) {
-  // Get relative path from data directory
-  const relativePath = path.relative(DATA_DIR, filePath)
-  const githubPath = `data/${relativePath}`
-  
-  try {
-    // Use GitHub API to get file contributors
-    const githubToken = process.env.GITHUB_TOKEN
-    if (!githubToken) {
-      throw new Error("GITHUB_TOKEN not available")
-    }
-    
-    // Get file commits to find contributors
-    const commitsUrl = `https://api.github.com/repos/afnizarnur/datapaw-library/commits?path=${encodeURIComponent(
-      githubPath
-    )}&per_page=100`
-    
-    const response = await fetch(commitsUrl, {
-      headers: {
-        Authorization: `Bearer ${githubToken}`,
-        Accept: "application/vnd.github.v3+json",
-        "User-Agent": "Datapaw-Index-Generator",
-      },
-    })
-    
-    if (!response.ok) {
-      throw new Error(`GitHub API error: ${response.status}`)
-    }
-    
-    const commits = await response.json()
-    
-    if (commits.length === 0) {
-      throw new Error("No commits found for file")
-    }
-    
-    // Extract unique contributors from commits
-    const contributors = new Map()
-    
-    for (const commit of commits) {
-      const author = commit.author
-      const committer = commit.committer
-      
-      if (author && author.login) {
-        contributors.set(author.login, {
-          name: author.login,
-          githubUsername: author.login,
-          avatarUrl: author.avatar_url,
-          contributions: (contributors.get(author.login)?.contributions || 0) + 1
-        })
-      }
-      
-      if (committer && committer.login && committer.login !== author?.login) {
-        contributors.set(committer.login, {
-          name: committer.login,
-          githubUsername: committer.login,
-          avatarUrl: committer.avatar_url,
-          contributions: (contributors.get(committer.login)?.contributions || 0) + 1
-        })
-      }
-    }
-    
-    // Convert to array and sort by contributions
-    const authors = Array.from(contributors.values())
-      .sort((a, b) => b.contributions - a.contributions)
-      .map(({ name, githubUsername, avatarUrl }) => ({
-        name,
-        githubUsername,
-        avatarUrl
-      }))
-    
-    return authors.length > 0 ? authors : null
-    
-  } catch (error) {
-    console.warn(
-      `⚠️  Could not fetch GitHub authors for ${githubPath}: ${error.message}`
-    )
-    return null
   }
 }
 
@@ -181,7 +131,6 @@ async function processImageDirectory(dirPath) {
           const jsonPath = path.join(dirPath, jsonFile)
           const fileData = JSON.parse(fs.readFileSync(jsonPath, "utf8"))
           const metadata = await getFileMetadata(jsonPath)
-          const authors = await getFileAuthors(jsonPath)
 
           // Update image URLs to be relative to the JSON file location
           if (fileData.data?.images) {
@@ -197,13 +146,7 @@ async function processImageDirectory(dirPath) {
             description: fileData.description?.trim() || "",
             datatype: fileData.datatype,
             isFeatured: fileData.isFeatured || false,
-            authors: fileData.authors || authors || [
-              {
-                name: "Datapaw",
-                githubUsername: "afnizarnur",
-                avatarUrl: "https://github.com/afnizarnur.png",
-              },
-            ],
+            authors: fileData.authors || [metadata.commitAuthor],
             metadata: {
               createdAt: metadata.createdAt,
               modifiedAt: metadata.modifiedAt,
@@ -257,7 +200,6 @@ async function generateIndex() {
               const filePath = path.join(dirPath, jsonFile)
               const fileData = JSON.parse(fs.readFileSync(filePath, "utf8"))
               const metadata = await getFileMetadata(filePath)
-              const authors = await getFileAuthors(filePath)
 
               allData.push({
                 id: `${dirName}-${jsonFile.replace(".json", "")}`,
@@ -265,13 +207,7 @@ async function generateIndex() {
                 description: fileData.description?.trim() || "",
                 datatype: fileData.datatype,
                 isFeatured: fileData.isFeatured || false,
-                authors: fileData.authors || authors || [
-                  {
-                    name: "Datapaw",
-                    githubUsername: "afnizarnur",
-                    avatarUrl: "https://github.com/afnizarnur.png",
-                  },
-                ],
+                authors: fileData.authors || [metadata.commitAuthor],
                 metadata: {
                   createdAt: metadata.createdAt,
                   modifiedAt: metadata.modifiedAt,
