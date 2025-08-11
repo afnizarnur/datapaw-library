@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-11T13:21:44.509Z",
+  "generatedAt": "2025-08-11T13:32:54.195Z",
   "totalItems": 47,
   "data": [
     {
@@ -10,14 +10,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:39:11.286Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:40:49Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/date-time/blog-posts.json",
       "data": {
@@ -43,14 +43,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:37:16.171Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:40:49Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/date-time/calendar-events.json",
       "data": {
@@ -76,14 +76,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:37:27.588Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:40:49Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/date-time/chat-timestamps.json",
       "data": {
@@ -109,14 +109,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:37:37.952Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:40:49Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/date-time/delivery-dates.json",
       "data": {
@@ -142,14 +142,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:39:21.384Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:40:49Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/date-time/file-timestamps.json",
       "data": {
@@ -175,14 +175,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T13:18:30.532Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T13:30:28Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/google-sheets/earth-meteorite-landings.json",
       "data": {
@@ -206,14 +206,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T03:43:15.544Z",
-        "modifiedAt": "2025-01-12T01:06:36.379Z"
+        "createdAt": "2025-01-11T11:13:03Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/google-sheets/retro-avatars.json",
       "data": {
@@ -237,14 +237,19 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
+        },
+        {
+          "name": "web-flow",
+          "githubUsername": "web-flow",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/19864447?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-06-06T12:40:23.187Z",
-        "modifiedAt": "2025-06-06T12:40:23.187Z"
+        "createdAt": "2025-06-03T02:34:58Z",
+        "modifiedAt": "2025-06-03T02:34:58Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/ISO-3166-countries-with-regional-codes.json",
       "data": {
@@ -269,14 +274,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-13T02:42:12.236Z",
-        "modifiedAt": "2025-01-13T02:42:55.430Z"
+        "createdAt": "2025-01-13T02:43:10Z",
+        "modifiedAt": "2025-01-13T02:43:10Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/airport.json",
       "data": {
@@ -300,14 +305,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T13:05:45.689Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T13:30:28Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/api-exchange-rate-gbp.json",
       "data": {
@@ -330,14 +335,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T13:04:40.220Z",
-        "modifiedAt": "2025-01-12T01:06:36.321Z"
+        "createdAt": "2025-01-11T13:30:28Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/api-exchange-rate-idr.json",
       "data": {
@@ -360,14 +365,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T13:03:19.429Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T13:30:28Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/api-exchange-rate-usd.json",
       "data": {
@@ -390,14 +395,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T13:27:47.061Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T13:30:28Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/current-movies-in-thailand.json",
       "data": {
@@ -420,14 +425,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-13T03:54:29.628Z",
-        "modifiedAt": "2025-01-13T04:02:07.049Z"
+        "createdAt": "2025-01-13T03:59:53Z",
+        "modifiedAt": "2025-01-13T04:10:50Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/japanese-names.json",
       "data": {
@@ -450,14 +455,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-13T06:55:09.400Z",
-        "modifiedAt": "2025-01-13T07:22:03.472Z"
+        "createdAt": "2025-01-13T06:57:01Z",
+        "modifiedAt": "2025-01-13T07:22:29Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/kpop-working-playlist.json",
       "data": {
@@ -480,14 +485,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T11:17:25.216Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T11:23:26Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/nepse-listed-companies-2021.json",
       "data": {
@@ -511,14 +516,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T11:17:23.555Z",
-        "modifiedAt": "2025-01-12T01:06:36.379Z"
+        "createdAt": "2025-01-11T11:23:26Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/nobel-prize-winners-by-year.json",
       "data": {
@@ -542,14 +547,14 @@
       "isFeatured": true,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T11:17:21.428Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T11:23:26Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/oscar-best-picture-award-winners.json",
       "data": {
@@ -573,14 +578,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T13:55:47.211Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T13:30:28Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/pokedex.json",
       "data": {
@@ -603,14 +608,14 @@
       "isFeatured": true,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T11:16:45.795Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T11:23:26Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/premier-league-points-table.json",
       "data": {
@@ -633,14 +638,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T13:25:30.106Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T13:30:28Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/rick-and-morthy-all-chars.json",
       "data": {
@@ -663,14 +668,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-13T07:17:39.774Z",
-        "modifiedAt": "2025-01-13T07:21:59.616Z"
+        "createdAt": "2025-01-13T07:21:26Z",
+        "modifiedAt": "2025-01-13T07:22:29Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/space-for-the-unbound-ost.json",
       "data": {
@@ -694,14 +699,14 @@
       "isFeatured": true,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-10T08:49:10.046Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-10T08:56:26Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/user-profile-wong-ngapak.json",
       "data": {
@@ -724,14 +729,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T11:15:07.615Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T11:23:26Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/world-population-by-country-2020.json",
       "data": {
@@ -755,14 +760,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:47:28.144Z",
-        "modifiedAt": "2025-01-12T01:06:36.294Z"
+        "createdAt": "2025-01-11T14:48:56Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/multiple/ecommerce-product.json",
       "data": {
@@ -846,14 +851,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-10T04:08:18.522Z",
-        "modifiedAt": "2025-01-12T01:06:36.304Z"
+        "createdAt": "2025-01-11T05:26:09Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/multiple/random-chat.json",
       "data": {
@@ -927,14 +932,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:47:45.284Z",
-        "modifiedAt": "2025-01-12T01:06:36.304Z"
+        "createdAt": "2025-01-11T14:48:56Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/multiple/social-post.json",
       "data": {
@@ -1024,14 +1029,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:48:02.504Z",
-        "modifiedAt": "2025-01-12T01:06:36.316Z"
+        "createdAt": "2025-01-10T07:51:08Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/multiple/user-profile.json",
       "data": {
@@ -1121,14 +1126,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:48:30.828Z",
-        "modifiedAt": "2025-01-12T01:06:36.288Z"
+        "createdAt": "2025-01-11T14:48:56Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/multiple/weather-forecast.json",
       "data": {
@@ -1209,14 +1214,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:35:18.502Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/battery-stats.json",
       "data": {
@@ -1245,14 +1250,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:35:38.894Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/countdown.json",
       "data": {
@@ -1281,14 +1286,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:35:09.040Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/ecommerce-stats.json",
       "data": {
@@ -1317,14 +1322,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:32:22.378Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/financial.json",
       "data": {
@@ -1353,14 +1358,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:34:20.808Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/fitness-stats.json",
       "data": {
@@ -1389,14 +1394,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:34:03.158Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/gaming-stats.json",
       "data": {
@@ -1425,14 +1430,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:34:29.747Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/internet-speed.json",
       "data": {
@@ -1461,14 +1466,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:35:29.233Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/music-stats.json",
       "data": {
@@ -1497,14 +1502,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-10T08:34:23.844Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-10T08:46:05Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/ratings.json",
       "data": {
@@ -1530,14 +1535,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:32:10.334Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/social-stats.json",
       "data": {
@@ -1566,14 +1571,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:34:58.627Z",
-        "modifiedAt": "2025-01-12T01:06:36.379Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/video-stats.json",
       "data": {
@@ -1602,14 +1607,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:34:11.621Z",
-        "modifiedAt": "2025-01-12T01:06:36.378Z"
+        "createdAt": "2025-01-11T14:36:17Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/weather-stats.json",
       "data": {
@@ -1637,14 +1642,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:42:46.053Z",
-        "modifiedAt": "2025-01-12T01:06:36.304Z"
+        "createdAt": "2025-01-11T14:45:29Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/button-labels.json",
       "data": {
@@ -1779,14 +1784,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:42:35.530Z",
-        "modifiedAt": "2025-01-12T01:06:36.298Z"
+        "createdAt": "2025-01-11T14:45:29Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/error-messages.json",
       "data": {
@@ -1921,14 +1926,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-10T08:24:24.561Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-10T08:25:10Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/job-titles.json",
       "data": {
@@ -2303,14 +2308,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:42:24.082Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T14:45:29Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/notifications.json",
       "data": {
@@ -2442,14 +2447,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:41:58.392Z",
-        "modifiedAt": "2025-01-12T01:06:36.294Z"
+        "createdAt": "2025-01-11T14:45:29Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/product-names.json",
       "data": {
@@ -2581,14 +2586,14 @@
       "isFeatured": false,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T14:42:12.422Z",
-        "modifiedAt": "2025-01-12T01:06:36.295Z"
+        "createdAt": "2025-01-11T14:45:29Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/usernames.json",
       "data": {
@@ -2732,14 +2737,14 @@
       "isFeatured": true,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T11:17:21.428Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T11:23:26Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/oscar-best-picture-award-winners.json",
       "data": {
@@ -2763,14 +2768,14 @@
       "isFeatured": true,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-11T11:16:45.795Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-11T11:23:26Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/premier-league-points-table.json",
       "data": {
@@ -2793,14 +2798,14 @@
       "isFeatured": true,
       "authors": [
         {
-          "name": "Datapaw",
+          "name": "afnizarnur",
           "githubUsername": "afnizarnur",
-          "avatarUrl": "https://github.com/afnizarnur.png"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
         }
       ],
       "metadata": {
-        "createdAt": "2025-01-10T08:49:10.046Z",
-        "modifiedAt": "2025-01-12T01:06:36.310Z"
+        "createdAt": "2025-01-10T08:56:26Z",
+        "modifiedAt": "2025-01-12T01:07:47Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/user-profile-wong-ngapak.json",
       "data": {
