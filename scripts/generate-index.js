@@ -161,7 +161,7 @@ function generateIndex() {
     }
 
     // Write to file
-    const outputPath = path.join(__dirname, "../index.json")
+    const outputPath = path.join(__dirname, "../datapaw-index.json")
     fs.writeFileSync(outputPath, JSON.stringify(index, null, 2))
 
     console.log(`✅ Index generated successfully!`)
