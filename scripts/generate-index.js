@@ -124,8 +124,6 @@ function generateIndex() {
               const fileData = JSON.parse(fs.readFileSync(filePath, "utf8"))
               const metadata = getFileMetadata(filePath)
 
-
-
               allData.push({
                 id: `${dirName}-${jsonFile.replace(".json", "")}`,
                 name: fileData.name?.trim() || "",
