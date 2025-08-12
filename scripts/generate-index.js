@@ -11,39 +11,47 @@
 const fs = require("fs")
 const path = require("path")
 
-// Load environment variables from .env file if it exists
+// Load environment variables from .env file if it exists (optional)
 try {
   require("dotenv").config({ path: path.join(__dirname, "../.env") })
 } catch (error) {
   // dotenv not installed, continue without it
-  console.log("ℹ️  dotenv not available, using system environment variables")
 }
 
 const DATA_DIR = path.join(__dirname, "../data")
 
-// Default author configuration - can be overridden via environment variables
-const DEFAULT_AUTHOR = {
-  name: process.env.DEFAULT_AUTHOR_NAME || "Datapaw",
-  githubUsername: process.env.DEFAULT_AUTHOR_GITHUB || "afnizarnur",
-  avatarUrl:
-    process.env.DEFAULT_AUTHOR_AVATAR || "https://github.com/afnizarnur.png",
+// Normalize authors to only include username and avatarUrl
+function normalizeAuthors(fileAuthors, commitAuthor) {
+  const fromFiles = Array.isArray(fileAuthors)
+    ? fileAuthors
+        .map((author) => {
+          const username = author.githubUsername || author.login
+          if (!username) return null
+          return {
+            githubUsername: String(username),
+            avatarUrl:
+              author.avatarUrl || `https://github.com/${String(username)}.png`,
+          }
+        })
+        .filter(Boolean)
+    : []
+
+  if (fromFiles.length > 0) return fromFiles
+  return commitAuthor ? [commitAuthor] : []
 }
 
 async function getFileMetadata(filePath) {
   // Get file stats for basic metadata
   const stats = fs.statSync(filePath)
 
-  // Get relative path from data directory
+  // Build repo relative path for GitHub API query
   const relativePath = path.relative(DATA_DIR, filePath)
   const githubPath = `data/${relativePath}`
 
   try {
-    // Use GitHub API to get file history
     const githubToken = process.env.GITHUB_TOKEN
     if (!githubToken) {
-      throw new Error(
-        "GITHUB_TOKEN environment variable not set. Please create a .env file or set the environment variable."
-      )
+      throw new Error("GITHUB_TOKEN environment variable not set")
     }
 
     // Get file commits to find creation and last modification dates
@@ -64,28 +72,30 @@ async function getFileMetadata(filePath) {
     }
 
     const commits = await response.json()
-
-    if (commits.length === 0) {
+    if (!Array.isArray(commits) || commits.length === 0) {
       throw new Error("No commits found for file")
     }
 
     // Last commit (most recent modification)
     const lastCommit = commits[0]
-    const modifiedAt = lastCommit.commit.author.date
+    const modifiedAt = lastCommit.commit?.author?.date
 
     // First commit (creation) - commits are in reverse chronological order
     const firstCommit = commits[commits.length - 1]
-    const createdAt = firstCommit.commit.author.date
+    const createdAt = firstCommit.commit?.author?.date
 
-    // Get author information from the first commit (file creator)
-    const author = firstCommit.author || firstCommit.commit.author
-    const commitAuthor = {
-      name: author.name || author.login || "Unknown",
-      githubUsername: author.login || "unknown",
-      avatarUrl:
-        author.avatar_url ||
-        `https://github.com/${author.login || "unknown"}.png`,
-    }
+    const login = firstCommit.author?.login || "unknown"
+    const avatarUrl =
+      firstCommit.author?.avatar_url ||
+      (login !== "unknown" ? `https://github.com/${login}.png` : "")
+
+    const commitAuthor =
+      login === "unknown"
+        ? undefined
+        : {
+            githubUsername: login,
+            avatarUrl,
+          }
 
     return {
       createdAt,
@@ -94,12 +104,7 @@ async function getFileMetadata(filePath) {
       commitAuthor,
     }
   } catch (error) {
-    console.warn(
-      `⚠️  Could not fetch GitHub metadata for ${githubPath}: ${error.message}`
-    )
-    console.warn(`   Falling back to file system timestamps`)
-
-    // Fallback to file system timestamps
+    // Fallback to file system timestamps only
     const createdAt =
       stats.birthtime.getTime() > 0 ? stats.birthtime : stats.ctime
     const modifiedAt = stats.mtime
@@ -108,7 +113,6 @@ async function getFileMetadata(filePath) {
       createdAt: createdAt.toISOString(),
       modifiedAt: modifiedAt.toISOString(),
       size: stats.size,
-      commitAuthor: DEFAULT_AUTHOR,
     }
   }
 }
@@ -146,7 +150,7 @@ async function processImageDirectory(dirPath) {
             description: fileData.description?.trim() || "",
             datatype: fileData.datatype,
             isFeatured: fileData.isFeatured || false,
-            authors: fileData.authors || [metadata.commitAuthor],
+            authors: normalizeAuthors(fileData.authors, metadata.commitAuthor),
             metadata: {
               createdAt: metadata.createdAt,
               modifiedAt: metadata.modifiedAt,
@@ -207,7 +211,10 @@ async function generateIndex() {
                 description: fileData.description?.trim() || "",
                 datatype: fileData.datatype,
                 isFeatured: fileData.isFeatured || false,
-                authors: fileData.authors || [metadata.commitAuthor],
+                authors: normalizeAuthors(
+                  fileData.authors,
+                  metadata.commitAuthor
+                ),
                 metadata: {
                   createdAt: metadata.createdAt,
                   modifiedAt: metadata.modifiedAt,

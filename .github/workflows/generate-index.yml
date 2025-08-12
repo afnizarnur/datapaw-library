@@ -36,12 +36,6 @@ jobs:
             echo "Using built-in GitHub token"
             export GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
           fi
-
-          # Set default author information
-          export DEFAULT_AUTHOR_NAME="${{ secrets.DEFAULT_AUTHOR_NAME || 'Datapaw' }}"
-          export DEFAULT_AUTHOR_GITHUB="${{ secrets.DEFAULT_AUTHOR_GITHUB || 'afnizarnur' }}"
-          export DEFAULT_AUTHOR_AVATAR="${{ secrets.DEFAULT_AUTHOR_AVATAR || 'https://github.com/afnizarnur.png' }}"
-
           node scripts/generate-index.js
 
       - name: Commit and push changes
@@ -51,5 +45,3 @@ jobs:
           git add index.json
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: Update data index [skip ci]"
           git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
