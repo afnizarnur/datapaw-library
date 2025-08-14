@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-14T04:55:32.532Z",
+  "generatedAt": "2025-08-14T05:03:35.371Z",
   "totalItems": 49,
   "data": [
     {
@@ -16,7 +16,7 @@
       ],
       "metadata": {
         "createdAt": "2025-08-14T04:55:13Z",
-        "modifiedAt": "2025-08-14T04:55:13Z"
+        "modifiedAt": "2025-08-14T05:03:12Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/bank-logo-api.json",
       "data": {
@@ -26,7 +26,7 @@
         "headers": {
           "Accept": "application/json"
         },
-        "authType": "No Auth"
+        "authType": "NoAuth"
       },
       "tags": [
         "bank",
@@ -51,7 +51,7 @@
       ],
       "metadata": {
         "createdAt": "2025-08-14T04:55:13Z",
-        "modifiedAt": "2025-08-14T04:55:13Z"
+        "modifiedAt": "2025-08-14T05:03:12Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/valorant-agents.json",
       "data": {
@@ -61,7 +61,7 @@
         "headers": {
           "Accept": "application/json"
         },
-        "authType": "No Auth"
+        "authType": "NoAuth"
       },
       "tags": [
         "valorant",
@@ -85,7 +85,7 @@
       ],
       "metadata": {
         "createdAt": "2025-08-14T04:55:13Z",
-        "modifiedAt": "2025-08-14T04:55:13Z"
+        "modifiedAt": "2025-08-14T05:03:12Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/valorant-buddies.json",
       "data": {
@@ -95,7 +95,7 @@
         "headers": {
           "Accept": "application/json"
         },
-        "authType": "No Auth"
+        "authType": "NoAuth"
       },
       "tags": [
         "valorant",
