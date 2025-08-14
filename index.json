@@ -1,42 +1,7 @@
 {
-  "generatedAt": "2025-08-14T05:03:35.371Z",
-  "totalItems": 49,
+  "generatedAt": "2025-08-14T06:13:35.232Z",
+  "totalItems": 48,
   "data": [
-    {
-      "id": "api-bank-logo-api",
-      "name": "Bank Logo API",
-      "description": "Public API for retrieving high-quality bank logos by domain name.",
-      "datatype": "api",
-      "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
-      "metadata": {
-        "createdAt": "2025-08-14T04:55:13Z",
-        "modifiedAt": "2025-08-14T05:03:12Z"
-      },
-      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/bank-logo-api.json",
-      "data": {
-        "orderType": "Random",
-        "url": "https://logo.bankconv.com/americanexpress.com",
-        "method": "GET",
-        "headers": {
-          "Accept": "application/json"
-        },
-        "authType": "NoAuth"
-      },
-      "tags": [
-        "bank",
-        "logo",
-        "branding",
-        "finance",
-        "api",
-        "public"
-      ]
-    },
     {
       "id": "api-valorant-agents",
       "name": "Valorant Agents",
