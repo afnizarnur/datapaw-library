@@ -1,0 +1,16 @@
+{
+  "name": "Valorant Agents",
+  "description": "Public Valorant API providing a list of agents with bios and images.",
+  "datatype": "api",
+  "isFeatured": false,
+  "data": {
+    "orderType": "Random",
+    "url": "https://valorant-api.com/v1/agents",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json"
+    },
+    "authType": "No Auth"
+  },
+  "tags": ["valorant", "gaming", "agents", "api", "public"]
+}

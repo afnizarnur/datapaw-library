@@ -1,0 +1,16 @@
+{
+  "name": "Valorant Buddies",
+  "description": "Public Valorant API providing a list of weapon buddies (gun charms) with images and details.",
+  "datatype": "api",
+  "isFeatured": false,
+  "data": {
+    "orderType": "Random",
+    "url": "https://valorant-api.com/v1/buddies",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json"
+    },
+    "authType": "No Auth"
+  },
+  "tags": ["valorant", "gaming", "buddies", "weapon charms", "api", "public"]
+}

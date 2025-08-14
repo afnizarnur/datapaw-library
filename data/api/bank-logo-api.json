@@ -1,0 +1,16 @@
+{
+  "name": "Bank Logo API",
+  "description": "Public API for retrieving high-quality bank logos by domain name.",
+  "datatype": "api",
+  "isFeatured": false,
+  "data": {
+    "orderType": "Random",
+    "url": "https://logo.bankconv.com/americanexpress.com",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json"
+    },
+    "authType": "No Auth"
+  },
+  "tags": ["bank", "logo", "branding", "finance", "api", "public"]
+}
