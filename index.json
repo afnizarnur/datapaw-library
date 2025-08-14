@@ -1,7 +1,111 @@
 {
-  "generatedAt": "2025-08-12T02:46:24.706Z",
-  "totalItems": 47,
+  "generatedAt": "2025-08-14T04:55:32.532Z",
+  "totalItems": 49,
   "data": [
+    {
+      "id": "api-bank-logo-api",
+      "name": "Bank Logo API",
+      "description": "Public API for retrieving high-quality bank logos by domain name.",
+      "datatype": "api",
+      "isFeatured": false,
+      "authors": [
+        {
+          "githubUsername": "afnizarnur",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
+        }
+      ],
+      "metadata": {
+        "createdAt": "2025-08-14T04:55:13Z",
+        "modifiedAt": "2025-08-14T04:55:13Z"
+      },
+      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/bank-logo-api.json",
+      "data": {
+        "orderType": "Random",
+        "url": "https://logo.bankconv.com/americanexpress.com",
+        "method": "GET",
+        "headers": {
+          "Accept": "application/json"
+        },
+        "authType": "No Auth"
+      },
+      "tags": [
+        "bank",
+        "logo",
+        "branding",
+        "finance",
+        "api",
+        "public"
+      ]
+    },
+    {
+      "id": "api-valorant-agents",
+      "name": "Valorant Agents",
+      "description": "Public Valorant API providing a list of agents with bios and images.",
+      "datatype": "api",
+      "isFeatured": false,
+      "authors": [
+        {
+          "githubUsername": "afnizarnur",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
+        }
+      ],
+      "metadata": {
+        "createdAt": "2025-08-14T04:55:13Z",
+        "modifiedAt": "2025-08-14T04:55:13Z"
+      },
+      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/valorant-agents.json",
+      "data": {
+        "orderType": "Random",
+        "url": "https://valorant-api.com/v1/agents",
+        "method": "GET",
+        "headers": {
+          "Accept": "application/json"
+        },
+        "authType": "No Auth"
+      },
+      "tags": [
+        "valorant",
+        "gaming",
+        "agents",
+        "api",
+        "public"
+      ]
+    },
+    {
+      "id": "api-valorant-buddies",
+      "name": "Valorant Buddies",
+      "description": "Public Valorant API providing a list of weapon buddies (gun charms) with images and details.",
+      "datatype": "api",
+      "isFeatured": false,
+      "authors": [
+        {
+          "githubUsername": "afnizarnur",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
+        }
+      ],
+      "metadata": {
+        "createdAt": "2025-08-14T04:55:13Z",
+        "modifiedAt": "2025-08-14T04:55:13Z"
+      },
+      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/valorant-buddies.json",
+      "data": {
+        "orderType": "Random",
+        "url": "https://valorant-api.com/v1/buddies",
+        "method": "GET",
+        "headers": {
+          "Accept": "application/json"
+        },
+        "authType": "No Auth"
+      },
+      "tags": [
+        "valorant",
+        "gaming",
+        "buddies",
+        "weapon charms",
+        "api",
+        "public"
+      ]
+    },
     {
       "id": "date-time-blog-posts",
       "name": "Blog Post Dates",
@@ -220,37 +324,6 @@
         "90s",
         "nostalgia",
         "data collection"
-      ]
-    },
-    {
-      "id": "json-ISO-3166-countries-with-regional-codes",
-      "name": "ISO-3166 Country and Dependent Territories Lists with UN Regional Codes",
-      "description": "A comprehensive dataset containing ISO 3166-1 country codes (alpha-2, alpha-3, and numeric) combined with UN M49 regional codes. Includes all sovereign states and dependent territories with their official names, regional classifications, and sub-regional groupings. Perfect for international applications, data visualization, and geographic information systems.",
-      "datatype": "json",
-      "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
-      "metadata": {
-        "createdAt": "2025-06-03T02:34:58Z",
-        "modifiedAt": "2025-06-03T02:34:58Z"
-      },
-      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/ISO-3166-countries-with-regional-codes.json",
-      "data": {
-        "sourceType": "url",
-        "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/refs/heads/master/all/all.json",
-        "orderType": "Random"
-      },
-      "tags": [
-        "countries",
-        "regions",
-        "ISO-3166",
-        "UN",
-        "territories",
-        "geography"
       ]
     },
     {
@@ -2669,6 +2742,7 @@
     }
   ],
   "categories": [
+    "api",
     "date-time",
     "google-sheets",
     "json",
