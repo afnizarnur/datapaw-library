@@ -10,7 +10,7 @@
     "headers": {
       "Accept": "application/json"
     },
-    "authType": "No Auth"
+    "authType": "NoAuth"
   },
   "tags": ["bank", "logo", "branding", "finance", "api", "public"]
 }

@@ -10,7 +10,7 @@
     "headers": {
       "Accept": "application/json"
     },
-    "authType": "No Auth"
+    "authType": "NoAuth"
   },
   "tags": ["valorant", "gaming", "buddies", "weapon charms", "api", "public"]
 }
