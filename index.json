@@ -1,108 +1,4 @@
 {
-  "generatedAt": "2025-08-21T14:15:11.447Z",
-  "totalItems": 51,
-  "data": [
-    {
-      "id": "api-narutodb-characters",
-      "name": "NarutoDB Characters",
-      "description": "Public NarutoDB API providing detailed Naruto character data including traits, jutsus, and affiliations.",
-      "datatype": "api",
-      "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
-      "metadata": {
-        "createdAt": "2025-08-21T14:14:43Z",
-        "modifiedAt": "2025-08-21T14:14:43Z"
-      },
-      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/narutodb-characters.json",
-      "data": {
-        "orderType": "Random",
-        "url": "https://narutodb.xyz/api/character",
-        "method": "GET",
-        "headers": {
-          "Accept": "application/json"
-        },
-        "authType": "NoAuth"
-      },
-      "tags": [
-        "naruto",
-        "anime",
-        "characters",
-        "jutsus",
-        "api",
-        "public"
-      ]
-    },
-    {
-      "id": "api-narutodb-teams",
-      "name": "NarutoDB Teams",
-      "description": "Public NarutoDB API providing Naruto teams with members and affiliations.",
-      "datatype": "api",
-      "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
-      "metadata": {
-        "createdAt": "2025-08-21T14:14:43Z",
-        "modifiedAt": "2025-08-21T14:14:43Z"
-      },
-      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/narutodb-teams.json",
-      "data": {
-        "orderType": "Random",
-        "url": "https://narutodb.xyz/api/team",
-        "method": "GET",
-        "headers": {
-          "Accept": "application/json"
-        },
-        "authType": "NoAuth"
-      },
-      "tags": [
-        "naruto",
-        "anime",
-        "teams",
-        "api",
-        "public"
-      ]
-    },
-    {
-      "id": "api-narutodb-villages",
-      "name": "NarutoDB Villages",
-      "description": "Public NarutoDB API providing village information and affiliations from the Naruto series.",
-      "datatype": "api",
-      "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
-      "metadata": {
-        "createdAt": "2025-08-21T14:14:43Z",
-        "modifiedAt": "2025-08-21T14:14:43Z"
-      },
-      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/narutodb-villages.json",
-      "data": {
-        "orderType": "Random",
-        "url": "https://narutodb.xyz/api/village",
-        "method": "GET",
-        "headers": {
-          "Accept": "application/json"
-        },
-        "authType": "NoAuth"
-      },
-      "tags": [
-        "naruto",
-        "anime",
-        "villages",
-        "api",
-        "public"
       ]
     },
     {
@@ -111,15 +7,10 @@
       "description": "Public Valorant API providing a list of agents with bios and images.",
       "datatype": "api",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-08-14T04:55:13Z",
-        "modifiedAt": "2025-08-14T05:03:12Z"
+        "createdAt": "2025-08-14T04:55:42.018Z",
+        "modifiedAt": "2025-08-14T05:03:24.631Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/valorant-agents.json",
       "data": {
@@ -145,15 +36,10 @@
       "description": "Public Valorant API providing a list of weapon buddies (gun charms) with images and details.",
       "datatype": "api",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-08-14T04:55:13Z",
-        "modifiedAt": "2025-08-14T05:03:12Z"
+        "createdAt": "2025-08-14T04:55:42.018Z",
+        "modifiedAt": "2025-08-14T05:03:24.631Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/valorant-buddies.json",
       "data": {
@@ -180,15 +66,10 @@
       "description": "Standard date formats perfect for blog posts and articles",
       "datatype": "date-time",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:40:49Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:39:11.286Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/date-time/blog-posts.json",
       "data": {
@@ -212,15 +93,10 @@
       "description": "Full date formats perfect for calendar events and schedules",
       "datatype": "date-time",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:40:49Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:37:16.171Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/date-time/calendar-events.json",
       "data": {
@@ -244,15 +120,10 @@
       "description": "Time-only formats perfect for chat messages and instant messaging",
       "datatype": "date-time",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:40:49Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:37:27.588Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/date-time/chat-timestamps.json",
       "data": {
@@ -276,15 +147,10 @@
       "description": "Short date formats perfect for delivery estimates and shipping dates",
       "datatype": "date-time",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:40:49Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:37:37.952Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/date-time/delivery-dates.json",
       "data": {
@@ -308,15 +174,10 @@
       "description": "Date and time formats perfect for file modification and creation dates",
       "datatype": "date-time",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:40:49Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:39:21.384Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/date-time/file-timestamps.json",
       "data": {
@@ -340,15 +201,10 @@
       "description": "A detailed dataset of meteorite landings on Earth, providing insights into their origins, compositions, and historical significance.",
       "datatype": "google-sheets",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T13:30:28Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T13:18:30.532Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/google-sheets/earth-meteorite-landings.json",
       "data": {
@@ -370,15 +226,10 @@
       "description": "An extensive collection of user profiles featuring avatars inspired by the vibrant styles of the 1980s and 1990s, perfect for nostalgic projects based on https://github.com/daniloq/rad-faces.",
       "datatype": "google-sheets",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T11:13:03Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T03:43:15.544Z",
+        "modifiedAt": "2025-01-12T01:06:36.379Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/google-sheets/retro-avatars.json",
       "data": {
@@ -400,15 +251,10 @@
       "description": "A comprehensive dataset of airports worldwide, including their locations and details.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-13T02:43:10Z",
-        "modifiedAt": "2025-01-13T02:43:10Z"
+        "createdAt": "2025-01-13T02:42:12.236Z",
+        "modifiedAt": "2025-01-13T02:42:55.430Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/airport.json",
       "data": {
@@ -430,15 +276,10 @@
       "description": "Current exchange rate data for GBP against various currencies.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T13:30:28Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T13:05:45.689Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/api-exchange-rate-gbp.json",
       "data": {
@@ -459,15 +300,10 @@
       "description": "Current exchange rate data for IDR against various currencies.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T13:30:28Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T13:04:40.220Z",
+        "modifiedAt": "2025-01-12T01:06:36.321Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/api-exchange-rate-idr.json",
       "data": {
@@ -488,15 +324,10 @@
       "description": "Current exchange rate data for USD against various currencies.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T13:30:28Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T13:03:19.429Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/api-exchange-rate-usd.json",
       "data": {
@@ -517,15 +348,10 @@
       "description": "A dataset providing information about the latest movies available in Thailand, including showtimes and details.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T13:30:28Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T13:27:47.061Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/current-movies-in-thailand.json",
       "data": {
@@ -546,15 +372,10 @@
       "description": "A curated dataset of traditional and modern Japanese names, including gender information.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-13T03:59:53Z",
-        "modifiedAt": "2025-01-13T04:10:50Z"
+        "createdAt": "2025-01-13T03:54:29.628Z",
+        "modifiedAt": "2025-01-13T04:02:07.049Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/japanese-names.json",
       "data": {
@@ -575,15 +396,10 @@
       "description": "A curated playlist featuring popular K-Pop songs and artists.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-13T06:57:01Z",
-        "modifiedAt": "2025-01-13T07:22:29Z"
+        "createdAt": "2025-01-13T06:55:09.400Z",
+        "modifiedAt": "2025-01-13T07:22:03.472Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/kpop-working-playlist.json",
       "data": {
@@ -604,15 +420,10 @@
       "description": "A comprehensive collection of companies listed on the Nepal Stock Exchange in 2021.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T11:23:26Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T11:17:25.216Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/nepse-listed-companies-2021.json",
       "data": {
@@ -634,15 +445,10 @@
       "description": "A comprehensive collection of Nobel Prize winners categorized by year, showcasing achievements in various fields.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T11:23:26Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T11:17:23.555Z",
+        "modifiedAt": "2025-01-12T01:06:36.379Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/nobel-prize-winners-by-year.json",
       "data": {
@@ -664,15 +470,10 @@
       "description": "A comprehensive collection of Oscar Best Picture award winners, showcasing cinematic excellence.",
       "datatype": "json",
       "isFeatured": true,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T11:23:26Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T11:17:21.428Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/oscar-best-picture-award-winners.json",
       "data": {
@@ -694,15 +495,10 @@
       "description": "A comprehensive database of Pokémon available in Pokémon GO, including their types, abilities, and stats.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T13:30:28Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T13:55:47.211Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/pokedex.json",
       "data": {
@@ -723,15 +519,10 @@
       "description": "A comprehensive overview of the Premier League points standings.",
       "datatype": "json",
       "isFeatured": true,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T11:23:26Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T11:16:45.795Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/premier-league-points-table.json",
       "data": {
@@ -752,15 +543,10 @@
       "description": "A comprehensive dataset of characters from the Rick and Morty universe, including their details and attributes.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T13:30:28Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T13:25:30.106Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/rick-and-morthy-all-chars.json",
       "data": {
@@ -781,15 +567,10 @@
       "description": "An immersive collection of the complete soundtrack for 'A Space for the Unbound', featuring a blend of emotional and atmospheric tracks.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-13T07:21:26Z",
-        "modifiedAt": "2025-01-13T07:22:29Z"
+        "createdAt": "2025-01-13T07:17:39.774Z",
+        "modifiedAt": "2025-01-13T07:21:59.616Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/space-for-the-unbound-ost.json",
       "data": {
@@ -811,15 +592,10 @@
       "description": "Collection of user profile data localized for wong asli Banyumasan for mockups",
       "datatype": "json",
       "isFeatured": true,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-10T08:56:26Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-10T08:49:10.046Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/user-profile-wong-ngapak.json",
       "data": {
@@ -840,15 +616,10 @@
       "description": "A comprehensive dataset detailing the population of countries around the world as of 2020, useful for demographic analysis and research.",
       "datatype": "json",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T11:23:26Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T11:15:07.615Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/world-population-by-country-2020.json",
       "data": {
@@ -870,15 +641,10 @@
       "description": "Product details with name, price, rating, and stock information",
       "datatype": "multiple",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:48:56Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:47:28.144Z",
+        "modifiedAt": "2025-01-12T01:06:36.294Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/multiple/ecommerce-product.json",
       "data": {
@@ -960,15 +726,10 @@
       "description": "Random Chat",
       "datatype": "multiple",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T05:26:09Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-10T04:08:18.522Z",
+        "modifiedAt": "2025-01-12T01:06:36.304Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/multiple/random-chat.json",
       "data": {
@@ -1040,15 +801,10 @@
       "description": "Social media post with username, content, likes, and timestamp",
       "datatype": "multiple",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:48:56Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:47:45.284Z",
+        "modifiedAt": "2025-01-12T01:06:36.304Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/multiple/social-post.json",
       "data": {
@@ -1136,15 +892,10 @@
       "description": "User profile information with name, bio, stats, and join date",
       "datatype": "multiple",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-10T07:51:08Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:48:02.504Z",
+        "modifiedAt": "2025-01-12T01:06:36.316Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/multiple/user-profile.json",
       "data": {
@@ -1232,15 +983,10 @@
       "description": "Weather forecast information with temperature, condition, and time",
       "datatype": "multiple",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:48:56Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:48:30.828Z",
+        "modifiedAt": "2025-01-12T01:06:36.288Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/multiple/weather-forecast.json",
       "data": {
@@ -1319,15 +1065,10 @@
       "description": "Device battery statistics with percentage and time remaining",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:35:18.502Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/battery-stats.json",
       "data": {
@@ -1354,15 +1095,10 @@
       "description": "Countdown numbers for timers, launches, and special events",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:35:38.894Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/countdown.json",
       "data": {
@@ -1389,15 +1125,10 @@
       "description": "Shop statistics for sales, inventory, reviews, and customer ratings",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:35:09.040Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/ecommerce-stats.json",
       "data": {
@@ -1424,15 +1155,10 @@
       "description": "Large financial numbers for business metrics, stock prices, and market data",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:32:22.378Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/financial.json",
       "data": {
@@ -1459,15 +1185,10 @@
       "description": "Health and fitness numbers for steps, calories burned, distance, and workout stats",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:34:20.808Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/fitness-stats.json",
       "data": {
@@ -1494,15 +1215,10 @@
       "description": "Fun gaming numbers for high scores, levels, XP points, and achievements",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:34:03.158Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/gaming-stats.json",
       "data": {
@@ -1529,15 +1245,10 @@
       "description": "Network speed numbers for download, upload, and ping measurements",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:34:29.747Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/internet-speed.json",
       "data": {
@@ -1564,15 +1275,10 @@
       "description": "Music streaming numbers for plays, listeners, and playlist stats",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:35:29.233Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/music-stats.json",
       "data": {
@@ -1599,15 +1305,10 @@
       "description": "Rating scores from 1 to 5 with one decimal place",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-10T08:46:05Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-10T08:34:23.844Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/ratings.json",
       "data": {
@@ -1631,15 +1332,10 @@
       "description": "Common social media numbers like views, likes, and followers with K/M formatting",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:32:10.334Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/social-stats.json",
       "data": {
@@ -1666,15 +1362,10 @@
       "description": "Video platform numbers for views, duration, subscribers, and watch time",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:34:58.627Z",
+        "modifiedAt": "2025-01-12T01:06:36.379Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/video-stats.json",
       "data": {
@@ -1701,15 +1392,10 @@
       "description": "Weather numbers for temperature, humidity, wind speed, and precipitation chance",
       "datatype": "number",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:36:17Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:34:11.621Z",
+        "modifiedAt": "2025-01-12T01:06:36.378Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/number/weather-stats.json",
       "data": {
@@ -1735,15 +1421,10 @@
       "description": "A collection of common button labels and call-to-action text",
       "datatype": "string",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:45:29Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:42:46.053Z",
+        "modifiedAt": "2025-01-12T01:06:36.304Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/button-labels.json",
       "data": {
@@ -1876,15 +1557,10 @@
       "description": "A collection of user-friendly error messages for various scenarios",
       "datatype": "string",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:45:29Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:42:35.530Z",
+        "modifiedAt": "2025-01-12T01:06:36.298Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/error-messages.json",
       "data": {
@@ -2017,15 +1693,10 @@
       "description": "A collection of common job titles across various industries",
       "datatype": "string",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-10T08:25:10Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-10T08:24:24.561Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/job-titles.json",
       "data": {
@@ -2398,15 +2069,10 @@
       "description": "A collection of common notification messages for apps and systems",
       "datatype": "string",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:45:29Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:42:24.082Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/notifications.json",
       "data": {
@@ -2536,15 +2202,10 @@
       "description": "A collection of modern product names for tech, fashion, and lifestyle items",
       "datatype": "string",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:45:29Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:41:58.392Z",
+        "modifiedAt": "2025-01-12T01:06:36.294Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/product-names.json",
       "data": {
@@ -2674,15 +2335,10 @@
       "description": "A collection of creative usernames for social media and gaming profiles",
       "datatype": "string",
       "isFeatured": false,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T14:45:29Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T14:42:12.422Z",
+        "modifiedAt": "2025-01-12T01:06:36.295Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/string/usernames.json",
       "data": {
@@ -2825,15 +2481,10 @@
       "description": "A comprehensive collection of Oscar Best Picture award winners, showcasing cinematic excellence.",
       "datatype": "json",
       "isFeatured": true,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T11:23:26Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T11:17:21.428Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/oscar-best-picture-award-winners.json",
       "data": {
@@ -2855,15 +2506,10 @@
       "description": "A comprehensive overview of the Premier League points standings.",
       "datatype": "json",
       "isFeatured": true,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-11T11:23:26Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-11T11:16:45.795Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/premier-league-points-table.json",
       "data": {
@@ -2884,15 +2530,10 @@
       "description": "Collection of user profile data localized for wong asli Banyumasan for mockups",
       "datatype": "json",
       "isFeatured": true,
-      "authors": [
-        {
-          "githubUsername": "afnizarnur",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4648648?v=4"
-        }
-      ],
+      "authors": [],
       "metadata": {
-        "createdAt": "2025-01-10T08:56:26Z",
-        "modifiedAt": "2025-01-12T01:07:47Z"
+        "createdAt": "2025-01-10T08:49:10.046Z",
+        "modifiedAt": "2025-01-12T01:06:36.310Z"
       },
       "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/json/user-profile-wong-ngapak.json",
       "data": {
