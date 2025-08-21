@@ -1,0 +1,25 @@
+{
+  "name": "Open Food Facts Product",
+  "description": "Open Food Facts product details for barcode 3017620422003 (Nutella).",
+  "datatype": "api",
+  "isFeatured": false,
+  "data": {
+    "orderType": "AsEntered",
+    "url": "https://world.openfoodfacts.org/api/v0/product/3017620422003.json",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json"
+    },
+    "authType": "NoAuth"
+  },
+  "tags": [
+    "open food facts",
+    "food",
+    "nutrition",
+    "product",
+    "api",
+    "public",
+    "open data"
+  ]
+}
+

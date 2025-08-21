@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2025-08-21T14:12:28.082Z",
-  "totalItems": 51,
+  "generatedAt": "2025-08-21T14:22:21.374Z",
+  "totalItems": 49,
   "data": [
     {
-      "id": "api-narutodb-characters",
-      "name": "NarutoDB Characters",
-      "description": "Public NarutoDB API providing detailed Naruto character data including traits, jutsus, and affiliations.",
+      "id": "api-openfoodfacts-product",
+      "name": "Open Food Facts Product",
+      "description": "Open Food Facts product details for barcode 3017620422003 (Nutella).",
       "datatype": "api",
       "isFeatured": false,
       "authors": [],
       "metadata": {
-        "createdAt": "2025-08-21T14:12:16.972Z",
-        "modifiedAt": "2025-08-21T14:12:16.972Z"
+        "createdAt": "2025-08-21T14:22:12.060Z",
+        "modifiedAt": "2025-08-21T14:22:12.060Z"
       },
-      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/narutodb-characters.json",
+      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/openfoodfacts-product.json",
       "data": {
-        "orderType": "Random",
-        "url": "https://narutodb.xyz/api/character",
+        "orderType": "AsEntered",
+        "url": "https://world.openfoodfacts.org/api/v0/product/3017620422003.json",
         "method": "GET",
         "headers": {
           "Accept": "application/json"
@@ -24,70 +24,13 @@
         "authType": "NoAuth"
       },
       "tags": [
-        "naruto",
-        "anime",
-        "characters",
-        "jutsus",
+        "open food facts",
+        "food",
+        "nutrition",
+        "product",
         "api",
-        "public"
-      ]
-    },
-    {
-      "id": "api-narutodb-teams",
-      "name": "NarutoDB Teams",
-      "description": "Public NarutoDB API providing Naruto teams with members and affiliations.",
-      "datatype": "api",
-      "isFeatured": false,
-      "authors": [],
-      "metadata": {
-        "createdAt": "2025-08-21T14:12:20.456Z",
-        "modifiedAt": "2025-08-21T14:12:20.456Z"
-      },
-      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/narutodb-teams.json",
-      "data": {
-        "orderType": "Random",
-        "url": "https://narutodb.xyz/api/team",
-        "method": "GET",
-        "headers": {
-          "Accept": "application/json"
-        },
-        "authType": "NoAuth"
-      },
-      "tags": [
-        "naruto",
-        "anime",
-        "teams",
-        "api",
-        "public"
-      ]
-    },
-    {
-      "id": "api-narutodb-villages",
-      "name": "NarutoDB Villages",
-      "description": "Public NarutoDB API providing village information and affiliations from the Naruto series.",
-      "datatype": "api",
-      "isFeatured": false,
-      "authors": [],
-      "metadata": {
-        "createdAt": "2025-08-21T14:12:24.426Z",
-        "modifiedAt": "2025-08-21T14:12:24.426Z"
-      },
-      "githubUrl": "https://github.com/afnizarnur/datapaw-library/blob/main/data/api/narutodb-villages.json",
-      "data": {
-        "orderType": "Random",
-        "url": "https://narutodb.xyz/api/village",
-        "method": "GET",
-        "headers": {
-          "Accept": "application/json"
-        },
-        "authType": "NoAuth"
-      },
-      "tags": [
-        "naruto",
-        "anime",
-        "villages",
-        "api",
-        "public"
+        "public",
+        "open data"
       ]
     },
     {
