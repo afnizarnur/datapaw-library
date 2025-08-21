@@ -1,0 +1,17 @@
+{
+  "name": "NarutoDB Villages",
+  "description": "Public NarutoDB API providing village information and affiliations from the Naruto series.",
+  "datatype": "api",
+  "isFeatured": false,
+  "data": {
+    "orderType": "Random",
+    "url": "https://narutodb.xyz/api/village",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json"
+    },
+    "authType": "NoAuth"
+  },
+  "tags": ["naruto", "anime", "villages", "api", "public"]
+}
+
